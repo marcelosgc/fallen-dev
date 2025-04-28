@@ -1,0 +1,53 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
+    <id>FallenDev</id>
+    <version>1.0.0</version>
+
+    <!-- Public plugin name should be written in Title Case.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
+    <name>Fallen Dev</name>
+    <category>UI</category>
+
+    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+    <vendor>Marcelo Carvalho</vendor>
+
+    <idea-version since-build="142"/>
+
+    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+    <description><![CDATA[
+    Fallen Dev is a meticulously crafted dark theme for developers who crave a somber, immersive coding atmosphere. Inspired by the haunting aesthetics of Lords of the Fallen and the gothic beauty of dark fantasy, this theme blends elegance with intensity — perfect for late-night coding rituals.
+<br>
+🎨 Features
+Deep and muted background: A rich black-steel base (#1e1f24) that reduces eye strain and sets a mysterious tone.
+<br>
+Enchanted color palette:
+<br>
+🟥 Blood reds for keywords of action and danger (e.g. return, throw)
+<br>
+🟡 Worn golds and bronze for class and type names
+<br>
+🟢 Moss greens and petroleum blues for magic values and functions
+<br>
+💜 Deep purples for strings and aura-like elements
+<br>
+⚙️ Metallic greys for structural logic and operators
+<br>
+Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
+  ]]></description>
+
+    <!-- Short summary of new features and bugfixes in the latest plugin version.
+         Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
+    <change-notes><![CDATA[
+    Initial release of the theme.
+  ]]></change-notes>
+
+    <!-- Product and plugin compatibility requirements.
+         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="FallenDev" path="/theme/FallenDev.theme.json"/>
+    </extensions>
+</idea-plugin>
