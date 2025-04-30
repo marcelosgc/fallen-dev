@@ -1,0 +1,29 @@
+﻿FALLEN DEV THEME – LICENSE AGREEMENT
+
+Copyright (c) [2025] Marcelo S G Carvalho
+
+All rights reserved.
+
+This theme plugin ("Fallen Dev") is licensed, not sold. By downloading, installing, or using this plugin, you agree to the following terms:
+
+1. You are granted a non-exclusive, non-transferable, revocable license to use the plugin within JetBrains IDEs.
+
+2. You may not:
+   - Modify, reverse engineer, decompile, or disassemble any part of this plugin.
+   - Distribute, sublicense, sell, lease, or rent this plugin to others.
+   - Upload or publish any derivative work based on this plugin.
+
+3. This plugin is protected by copyright laws and international treaties. Unauthorized reproduction or redistribution is prohibited.
+
+4. The plugin is provided "as is", without warranty of any kind. The author is not liable for any damages resulting from the use or inability to use this plugin.
+
+5. JetBrains s.r.o. is not affiliated with, nor endorses, this plugin.
+
+For commercial licensing, team use, or redistribution rights, please contact:
+marcelo.sgcarvalho@gmail.com
+
+---
+
+Theme Name: Fallen Dev
+Version: 1.0
+Author: Marcelo S G Carvalho

@@ -11,7 +11,7 @@
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
     <vendor>Marcelo Carvalho</vendor>
-
+    <license>LICENSE.txt</license>
     <idea-version since-build="142"/>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
