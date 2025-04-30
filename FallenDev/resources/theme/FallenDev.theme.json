@@ -254,14 +254,14 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#29617c",
+      "Actions.Blue": "bloodRed",
       "Actions.Green": "#3a7460",
       "Actions.Grey": "txtSteel",
       "Actions.GreyInline.Dark": "#3a7460",
       "Actions.GreyInline": "#3a7460",
       "Actions.Red": "bloodRed",
       "Actions.Yellow": "lastHopewarning",
-      "Objects.Blue": "#29617c",
+      "Objects.Blue": "bloodRed",
       "Objects.Green": "#3a7460",
       "Objects.GreenAndroid": "#3a7460",
       "Objects.Grey": "txtSteel",
