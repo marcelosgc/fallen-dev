@@ -868,6 +868,7 @@
         </option>
         <option name="INLAY_DEFAULT">
             <value>
+                <option name="FOREGROUND" value="85898e"/>
                 <option name="BACKGROUND" value="424550"/>
             </value>
         </option>
@@ -879,13 +880,14 @@
         </option>
         <option name="INLINE_PARAMETER_HINT_CURRENT">
             <value>
-                <option name="FOREGROUND" value="acacac"/>
+                <option name="FOREGROUND" value="85898e"/>
                 <option name="BACKGROUND" value="265b74"/>
             </value>
         </option>
         <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
             <value>
-                <option name="BACKGROUND" value="5b606f"/>
+                <option name="FOREGROUND" value="85898e"/>
+                <option name="BACKGROUND" value="4d3860"/>
             </value>
         </option>
         <option name="INTERFACE_NAME_ATTRIBUTES">
