@@ -55,7 +55,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="63666B"/>
         <option name="SELECTED_INDENT_GUIDE" value="25272D"/>
         <option name="SELECTED_TEARLINE_COLOR" value="4D3860"/>
-        <option name="SELECTION_BACKGROUND" value="2E3037"/>
+        <option name="SELECTION_BACKGROUND" value="3a4044"/>
         <option name="SEPARATOR_ABOVE_COLOR" value="454158"/>
         <option name="SEPARATOR_BELOW_COLOR" value="454158"/>
         <option name="TEARLINE_COLOR" value="6F7378"/>
@@ -129,7 +129,7 @@
         </option>
         <option name="BREAKPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="591a26"/>
+                <option name="BACKGROUND" value="2E1013"/>
                 <option name="ERROR_STRIPE_COLOR" value="cf5c72"/>
             </value>
         </option>
@@ -335,18 +335,27 @@
         </option>
         <option name="DEBUGGER_PREDICTED_VALUE_FALSE">
             <value>
-                <option name="BACKGROUND" value="691925"/>
+                <option name="FOREGROUND" value="c7c9cb"/>
+                <option name="BACKGROUND" value="d55366"/>
             </value>
         </option>
         <option name="DEBUGGER_PREDICTED_VALUE_FALSE_ALT" baseAttributes="DEBUGGER_PREDICTED_VALUE_FALSE"/>
         <option name="DEBUGGER_PREDICTED_VALUE_TRUE">
             <value>
-                <option name="BACKGROUND" value="1e3b31"/>
+                <option name="FOREGROUND" value="c7c9cb"/>
+                <option name="BACKGROUND" value="499379"/>
             </value>
         </option>
         <option name="DEBUGGER_PREDICTED_VALUE_TRUE_ALT" baseAttributes="DEBUGGER_PREDICTED_VALUE_TRUE"/>
         <option name="DEBUGGER_SMART_STEP_INTO_SELECTION" baseAttributes="LIVE_TEMPLATE_ATTRIBUTES"/>
         <option name="DEBUGGER_SMART_STEP_INTO_TARGET" baseAttributes="SEARCH_RESULT_ATTRIBUTES"/>
+        <option name="DEBUGGER_UNREACHABLE_DECORATION">
+            <value>
+                <option name="FOREGROUND" value="c7c9cb"/>
+                <option name="EFFECT_COLOR" value="334466"/>
+                <option name="EFFECT_TYPE" value="3"/>
+            </value>
+        </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
                 <option name="FOREGROUND" value="6f7378"/>
@@ -571,7 +580,9 @@
         </option>
         <option name="EXECUTIONPOINT_ATTRIBUTES">
             <value>
-                <option name="BACKGROUND" value="652329"/>
+                <option name="BACKGROUND" value="2d383a"/>
+                <option name="FONT_TYPE" value="3"/>
+                <option name="EFFECT_COLOR" value="7f2c34"/>
             </value>
         </option>
         <option name="FOLDED_TEXT_ATTRIBUTES">
@@ -1839,9 +1850,10 @@
         </option>
         <option name="WRONG_REFERENCES_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="7a1a22"/>
+                <option name="FOREGROUND" value="ca656e"/>
                 <option name="FONT_TYPE" value="3"/>
-                <option name="EFFECT_TYPE" value="5"/>
+                <option name="EFFECT_COLOR" value="801f2d"/>
+                <option name="EFFECT_TYPE" value="2"/>
             </value>
         </option>
         <option name="XML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE"/>
