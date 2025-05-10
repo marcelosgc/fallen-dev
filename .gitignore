@@ -2,3 +2,7 @@ out
 *.jar
 .idea
 /.idea
+.vscode
+.vs
+/.vscode
+/.vs
