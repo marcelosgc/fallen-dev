@@ -1,0 +1,286 @@
+{
+  "name": "Fallen Dev - Sanctum",
+  "author": "Marcelo Carvalho",
+  "dark": false,
+  "editorScheme": "fallenDevSanctum.xml",
+  "colors": {
+    "sanctumWhite": "#c5c3cb",
+    "sanctumStone": "#b6b4be",
+    "txtSoulSinner": "#2b2b2c",
+    "bgEndOfTunnel": "#e8e7ea",
+    "deadBg": "#151320",
+    "stainedBgSelection": "#c5c3cb",
+
+    "lastHopewarning": "#e0c080"
+  },
+  "ui": {
+    "*": {
+      "arc": "8",
+      "background": "bgEndOfTunnel",
+      "selectionBackground": "stainedBgSelection",
+      "selectionInactiveBackground": "sanctumWhite",
+      "inactiveBackground": "deadBg",
+      "borderColor": "sanctumWhite",
+      "underlineColor": "sanctumStone"
+    },
+    "Borders": {
+      "color": "sanctumWhite",
+      "ContrastBorderColor": "#181a1f"
+    },
+    "ActionButton": {
+      "hoverBackground": "sanctumWhite",
+      "hoverBorderColor": "sanctumWhite",
+      "pressedBackground": "sanctumStone",
+      "pressedBorderColor": "sanctumWhite"
+    },
+    "Button": {
+      "foreground": "txtSoulSinner",
+      "startBorderColor": "sanctumWhite",
+      "endBorderColor": "sanctumWhite",
+      "startBackground": "sanctumWhite",
+      "endBackground": "sanctumWhite",
+      "focusedBorderColor": "sanctumStone",
+      "default": {
+        "foreground": "txtSoulSinner",
+        "startBackground": "sanctumWhite",
+        "endBackground": "sanctumWhite",
+        "startBorderColor": "sanctumWhite",
+        "endBorderColor": "sanctumWhite",
+        "focusColor": "sanctumStone",
+        "focusedBorderColor": "sanctumStone"
+      }
+    },
+    "Counter": {
+      "foreground": "txtSoulSinner",
+      "background": "sanctumWhite"
+    },
+    "CheckBoxMenuItem": {
+      "acceleratorSelectionForeground": "sanctumWhite"
+    },
+    "ComboBox": {
+      "modifiedItemForeground": "sanctumWhite",
+      "ArrowButton": {
+        "background": "bgEndOfTunnel",
+        "nonEditableBackground": "deadBg",
+        "iconColor": "txtSoulSinner"
+      },
+      "selectionBackground": "#6f7378",
+      "nonEditableBackground": "sanctumWhite"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "sanctumWhite",
+      "selectionInactiveBackground": "sanctumWhite",
+      "matchForeground": "txtSoulSinner"
+    },
+    "Component": {
+      "focusColor": "sanctumWhite",
+      "borderColor": "sanctumWhite",
+      "focusedBorderColor": "sanctumWhite",
+      "errorFocusColor": "#801f2d",
+      "inactiveErrorFocusColor": "#441018",
+      "warningFocusColor": "lastHopewarning",
+      "inactiveWarningFocusColor": "#433210"
+    },
+    "DragAndDrop": {
+      "areaBackground": "#cb4f66"
+    },
+    "Editor": {
+      "background": "bgEndOfTunnel",
+      "shortcutForeground": "sanctumWhite"
+    },
+    "EditorTabs": {
+      "background": "bgEndOfTunnel",
+      "underlinedTabBackground": "#2a2c33",
+      "underlineColor": "sanctumWhite",
+      "underlineHeight": 2
+    },
+    "FileColor": {
+      "Blue": "#0B0D0F",
+      "Green": "#212C2A",
+      "Orange": "#2C2122",
+      "Yellow": "#2C2A21",
+      "Rose": "#2A212C",
+      "Violet": "#22212C"
+    },
+    "Label": {
+      "foreground": "txtSoulSinner",
+      "errorForeground": "#801f2d"
+    },
+    "Link": {
+      "activeForeground": "sanctumWhite",
+      "hoverForeground": "#922b3f",
+      "visitedForeground": "#d16579",
+      "pressedForeground": "sanctumWhite"
+    },
+    "Notification": {
+      "borderColor": "sanctumWhite",
+      "errorBorderColor": "#801f2d",
+      "errorBackground": "bgEndOfTunnel",
+      "errorForeground": "txtSoulSinner",
+      "ToolWindow": {
+        "warningForeground": "txtSoulSinner",
+        "warningBackground": "bgEndOfTunnel",
+        "warningBorderColor": "lastHopewarning",
+        "errorForeground": "txtSoulSinner",
+        "errorBorderColor": "#801f2d",
+        "errorBackground": "bgEndOfTunnel",
+        "informativeForeground": "txtSoulSinner",
+        "informativeBackground": "bgEndOfTunnel",
+        "informativeBorderColor": "sanctumWhite"
+      }
+    },
+    "Plugins": {
+      "SearchField": {
+        "background": "bgEndOfTunnel"
+      },
+      "SectionHeader": {
+        "foreground": "txtSoulSinner"
+      },
+      "lightSelectionBackground": "#22212C",
+      "Button": {
+        "installBorderColor": "sanctumWhite",
+        "installForeground": "sanctumWhite",
+        "installBackground": "bgEndOfTunnel",
+        "installFillForeground": "txtSoulSinner",
+        "installFillBackground": "sanctumWhite",
+        "installFocusedBackground": "sanctumWhite",
+        "updateBorderColor": "sanctumWhite",
+        "updateForeground": "txtSoulSinner",
+        "updateBackground": "sanctumWhite"
+      },
+      "Tab": {
+        "selectedBackground": "sanctumWhite",
+        "selectedForeground": "txtSoulSinner",
+        "hoverBackground": "bgEndOfTunnel"
+      }
+    },
+    "ProgressBar": {
+      "failedColor": "#43171b",
+      "failedEndColor": "#43171b",
+      "trackColor": "#8f323a",
+      "progressColor": "#822e35",
+      "indeterminateStartColor": "#6d262c",
+      "indeterminateEndColor": "#6d262c",
+      "passedColor": "sanctumWhite",
+      "passedEndColor": "sanctumWhite"
+    },
+    "Popup": {
+      "Header": {
+        "activeBackground": "bgEndOfTunnel",
+        "inactiveBackground": "sanctumWhite"
+      }
+    },
+    "SearchEverywhere": {
+      "SearchField": {
+        "background": "bgEndOfTunnel"
+      },
+      "Tab": {
+        "selectedBackground": "sanctumWhite",
+        "selectedForeground": "txtSoulSinner"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "sanctumWhite",
+      "endBackground": "sanctumWhite"
+    },
+    "Separator.separatorColor": "sanctumWhite",
+    "TabbedPane": {
+      "tabSelectionHeight": 2,
+      "focusColor": "sanctumWhite",
+      "hoverColor": "sanctumStone",
+      "underlineColor": "sanctumWhite",
+      "contentAreaColor": "bgEndOfTunnel"
+    },
+
+    "ToggleButton": {
+      "onBackground": "sanctumWhite",
+      "onForeground": "txtSoulSinner",
+      "offBackground": "#43171b",
+      "offForeground": "txtSoulSinner",
+      "buttonColor": "sanctumWhite"
+    },
+    "ToolWindow": {
+      "Button": {
+        "hoverBackground": "sanctumWhite",
+        "selectedBackground":"stainedBgSelection"
+      },
+      "Header": {
+        "background": "sanctumWhite",
+        "inactiveBackground": "bgEndOfTunnel"
+      },
+      "HeaderTab": {
+        "underlineColor": "sanctumWhite",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "bgEndOfTunnel",
+        "underlinedTabInactiveBackground": "sanctumWhite"
+      }
+    },
+    "Tree": {
+      "modifiedItemForeground": "sanctumWhite",
+      "selectionBackground": "stainedBgSelection",
+      "selectionInactiveBackground": "sanctumWhite"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "#43171b",
+      "errorBorderColor": "#43171b",
+      "warningBorderColor": "lastHopewarning",
+      "warningBackground": "lastHopewarning"
+    },
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "#22212C"
+        }
+      },
+      "GitLog": {
+        "headIconColor": "lastHopewarning",
+        "localBranchIconColor": "#3a7460",
+        "remoteBranchIconColor": "#4d3860",
+        "tagIconColor": "sanctumWhite",
+        "otherIconColor": "#29617c"
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "bgEndOfTunnel"
+        }
+      }
+    },
+    "WelcomeScreen": {
+      "separatorColor": "sanctumWhite",
+      "Projects": {
+        "background": "bgEndOfTunnel",
+        "selectionBackground": "bgEndOfTunnel",
+        "selectionInactiveBackground": "bgEndOfTunnel"
+      }
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#29617c",
+      "Actions.Green": "#3a7460",
+      "Actions.Grey": "txtSoulSinner",
+      "Actions.GreyInline.Dark": "#3a7460",
+      "Actions.GreyInline": "#3a7460",
+      "Actions.Red": "sanctumWhite",
+      "Actions.Yellow": "lastHopewarning",
+      "Objects.Blue": "#29617c",
+      "Objects.Green": "#3a7460",
+      "Objects.GreenAndroid": "#3a7460",
+      "Objects.Grey": "txtSoulSinner",
+      "Objects.Pink": "sanctumStone",
+      "Objects.Purple": "#4d3860",
+      "Objects.Red": "sanctumWhite",
+      "Objects.RedStatus": "sanctumWhite",
+      "Objects.Yellow": "lastHopewarning",
+      "Objects.YellowDark": "lastHopewarning",
+      "Objects.BlackText": "deadBg",
+      "Checkbox.Border.Default.Dark": "sanctumWhite",
+      "Checkbox.Border.Selected.Dark": "sanctumWhite",
+      "Checkbox.Background.Default.Dark": "deadBg",
+      "Checkbox.Foreground.Selected.Dark": "sanctumWhite",
+      "Checkbox.Focus.Wide.Dark": "sanctumWhite",
+      "Checkbox.Focus.Thin.Selected.Dark": "sanctumWhite",
+      "Checkbox.Focus.Thin.Default.Dark": "sanctumWhite"
+    }
+  }
+}
