@@ -1,16 +1,21 @@
-# fallen-dev README
+# Fallen-Dev
 
-## Working with Markdown
+🛡️ Fallen Dev — A Dark Fantasy IDE Theme Inspired by Lords of the Fallen
+Fallen Dev is a meticulously crafted dark theme for developers who crave a somber, immersive coding atmosphere. Inspired by the haunting aesthetics of Lords of the Fallen and the gothic beauty of dark fantasy, this theme blends elegance with intensity — perfect for late-night coding rituals.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+🎨 Features
+Deep and muted background: A rich black-steel base (#1e1f24) that reduces eye strain and sets a mysterious tone.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+Enchanted color palette:
 
-## For more information
+🟥 Blood reds for keywords of action and danger (e.g. return, throw)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+🟡 Worn golds and bronze for class and type names
 
-**Enjoy!**
+🟢 Moss greens and petroleum blues for magic values and functions
+
+💜 Deep purples for strings and aura-like elements
+
+⚙️ Metallic greys for structural logic and operators
+
+Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono

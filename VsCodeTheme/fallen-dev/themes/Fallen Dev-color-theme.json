@@ -498,7 +498,7 @@
 		"symbolIcon.folderForeground": "#b9414b",
 		"symbolIcon.functionForeground": "#29617c",
 		"symbolIcon.interfaceForeground": "#e0c080",
-		"symbolIcon.keyForeground": "#29617c",
+		"symbolIcon.keyForeground": "#ff9580",
 		"symbolIcon.keywordForeground": "#b9414b",
 		"symbolIcon.methodForeground": "#29617c",
 		"symbolIcon.moduleForeground": "#85898e",
