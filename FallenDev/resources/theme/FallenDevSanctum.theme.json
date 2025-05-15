@@ -4,154 +4,175 @@
   "dark": false,
   "editorScheme": "fallenDevSanctum.xml",
   "colors": {
-    "sanctumWhite": "#c5c3cb",
-    "sanctumStone": "#b6b4be",
-    "txtSoulSinner": "#2b2b2c",
-    "bgEndOfTunnel": "#e8e7ea",
-    "deadBg": "#151320",
-    "stainedBgSelection": "#c5c3cb",
-
-    "lastHopewarning": "#e0c080"
+    "white1": "#c5c3cb",
+    "white2": "#8a8696",
+    "text": "#2b2b2c",
+    "bg1": "#e8e7ea",
+    "bg2": "#524e59",
+    "bgSelection": "#b6b4be",
+    "warning": "#c1a875",
+    "error": "#801f2d",
+    "hoverLink": "#922b3f",
+    "visitedLink": "#d16579",
+    "stopButton": "#b9414b",
+    "debugButton": "#3a7460",
+    "fileOrange": "#dec2b4",
+    "fileYellow": "#ded0b4",
+    "fileGreen": "#87c3ae",
+    "fileBlue": "#71b1d0",
+    "fileRose": "#d2bcd5",
+    "fileViolet": "#b3a8d3",
+    "fileGrey": "#efedf0"
   },
   "ui": {
     "*": {
       "arc": "8",
-      "background": "bgEndOfTunnel",
-      "selectionBackground": "stainedBgSelection",
-      "selectionInactiveBackground": "sanctumWhite",
-      "inactiveBackground": "deadBg",
-      "borderColor": "sanctumWhite",
-      "underlineColor": "sanctumStone"
+      "background": "bg1",
+      "selectionBackground": "bgSelection",
+      "selectionInactiveBackground": "white1",
+      "inactiveBackground": "bg2",
+      "borderColor": "white1",
+      "underlineColor": "white2"
     },
     "Borders": {
-      "color": "sanctumWhite",
-      "ContrastBorderColor": "#181a1f"
+      "color": "white1",
+      "ContrastBorderColor": "white2"
+    },
+    "Editor": {
+      "background": "bg1",
+      "shortcutForeground": "white1"
+    },
+    "EditorTabs": {
+      "background": "bg1",
+      "underlinedTabBackground": "white1",
+      "underlineColor": "white2",
+      "underlineHeight": 5
+    },
+    "RunToolbar.Debug.activeBackground": "debugButton",
+    "RunWidget": {
+      "foreground": "text",
+      "hoverBackground": "white2",
+      "iconColor": "text",
+      "runIconColor": "text",
+      "runningIconColor": "text",
+      "stopBackground": "stopButton"
     },
     "ActionButton": {
-      "hoverBackground": "sanctumWhite",
-      "hoverBorderColor": "sanctumWhite",
-      "pressedBackground": "sanctumStone",
-      "pressedBorderColor": "sanctumWhite"
+      "hoverBackground": "white1",
+      "hoverBorderColor": "white1",
+      "pressedBackground": "white2",
+      "pressedBorderColor": "white1"
     },
     "Button": {
-      "foreground": "txtSoulSinner",
-      "startBorderColor": "sanctumWhite",
-      "endBorderColor": "sanctumWhite",
-      "startBackground": "sanctumWhite",
-      "endBackground": "sanctumWhite",
-      "focusedBorderColor": "sanctumStone",
+      "foreground": "text",
+      "startBorderColor": "white1",
+      "endBorderColor": "white1",
+      "startBackground": "white1",
+      "endBackground": "white1",
+      "focusedBorderColor": "white2",
       "default": {
-        "foreground": "txtSoulSinner",
-        "startBackground": "sanctumWhite",
-        "endBackground": "sanctumWhite",
-        "startBorderColor": "sanctumWhite",
-        "endBorderColor": "sanctumWhite",
-        "focusColor": "sanctumStone",
-        "focusedBorderColor": "sanctumStone"
+        "foreground": "text",
+        "startBackground": "white1",
+        "endBackground": "white1",
+        "startBorderColor": "white1",
+        "endBorderColor": "white1",
+        "focusColor": "white2",
+        "focusedBorderColor": "white2"
       }
     },
     "Counter": {
-      "foreground": "txtSoulSinner",
-      "background": "sanctumWhite"
+      "foreground": "text",
+      "background": "white1"
     },
     "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "sanctumWhite"
+      "acceleratorSelectionForeground": "white1"
     },
     "ComboBox": {
-      "modifiedItemForeground": "sanctumWhite",
+      "modifiedItemForeground": "text",
+      "selectionBackground": "white2",
+      "nonEditableBackground": "white1",
       "ArrowButton": {
-        "background": "bgEndOfTunnel",
-        "nonEditableBackground": "deadBg",
-        "iconColor": "txtSoulSinner"
-      },
-      "selectionBackground": "#6f7378",
-      "nonEditableBackground": "sanctumWhite"
+        "background": "bg2",
+        "nonEditableBackground": "bg2",
+        "iconColor": "text"
+      }
     },
     "CompletionPopup": {
-      "selectionBackground": "sanctumWhite",
-      "selectionInactiveBackground": "sanctumWhite",
-      "matchForeground": "txtSoulSinner"
+      "selectionBackground": "white1",
+      "selectionInactiveBackground": "white1",
+      "matchForeground": "text"
     },
     "Component": {
-      "focusColor": "sanctumWhite",
-      "borderColor": "sanctumWhite",
-      "focusedBorderColor": "sanctumWhite",
-      "errorFocusColor": "#801f2d",
+      "focusColor": "white1",
+      "borderColor": "white1",
+      "focusedBorderColor": "white1",
+      "errorFocusColor": "error",
       "inactiveErrorFocusColor": "#441018",
-      "warningFocusColor": "lastHopewarning",
+      "warningFocusColor": "warning",
       "inactiveWarningFocusColor": "#433210"
     },
     "DragAndDrop": {
       "areaBackground": "#cb4f66"
     },
-    "Editor": {
-      "background": "bgEndOfTunnel",
-      "shortcutForeground": "sanctumWhite"
-    },
-    "EditorTabs": {
-      "background": "bgEndOfTunnel",
-      "underlinedTabBackground": "#2a2c33",
-      "underlineColor": "sanctumWhite",
-      "underlineHeight": 2
-    },
     "FileColor": {
-      "Blue": "#0B0D0F",
-      "Green": "#212C2A",
-      "Orange": "#2C2122",
-      "Yellow": "#2C2A21",
-      "Rose": "#2A212C",
-      "Violet": "#22212C"
+      "Blue": "fileBlue",
+      "Green": "fileGreen",
+      "Orange": "fileOrange",
+      "Yellow": "fileYellow",
+      "Rose": "fileRose",
+      "Violet": "fileViolet",
+      "Gray": "fileGrey"
     },
     "Label": {
-      "foreground": "txtSoulSinner",
-      "errorForeground": "#801f2d"
+      "foreground": "text",
+      "errorForeground": "error"
     },
     "Link": {
-      "activeForeground": "sanctumWhite",
-      "hoverForeground": "#922b3f",
-      "visitedForeground": "#d16579",
-      "pressedForeground": "sanctumWhite"
+      "activeForeground": "text",
+      "hoverForeground": "hoverLink",
+      "visitedForeground": "visitedLink",
+      "pressedForeground": "white1"
     },
     "Notification": {
-      "borderColor": "sanctumWhite",
-      "errorBorderColor": "#801f2d",
-      "errorBackground": "bgEndOfTunnel",
-      "errorForeground": "txtSoulSinner",
+      "borderColor": "white1",
+      "errorBorderColor": "error",
+      "errorBackground": "bg1",
+      "errorForeground": "text",
       "ToolWindow": {
-        "warningForeground": "txtSoulSinner",
-        "warningBackground": "bgEndOfTunnel",
-        "warningBorderColor": "lastHopewarning",
-        "errorForeground": "txtSoulSinner",
-        "errorBorderColor": "#801f2d",
-        "errorBackground": "bgEndOfTunnel",
-        "informativeForeground": "txtSoulSinner",
-        "informativeBackground": "bgEndOfTunnel",
-        "informativeBorderColor": "sanctumWhite"
+        "warningForeground": "text",
+        "warningBackground": "bg1",
+        "warningBorderColor": "warning",
+        "errorForeground": "text",
+        "errorBorderColor": "error",
+        "errorBackground": "bg1",
+        "informativeForeground": "text",
+        "informativeBackground": "bg1",
+        "informativeBorderColor": "white1"
       }
     },
     "Plugins": {
       "SearchField": {
-        "background": "bgEndOfTunnel"
+        "background": "bg1"
       },
       "SectionHeader": {
-        "foreground": "txtSoulSinner"
+        "foreground": "text"
       },
       "lightSelectionBackground": "#22212C",
       "Button": {
-        "installBorderColor": "sanctumWhite",
-        "installForeground": "sanctumWhite",
-        "installBackground": "bgEndOfTunnel",
-        "installFillForeground": "txtSoulSinner",
-        "installFillBackground": "sanctumWhite",
-        "installFocusedBackground": "sanctumWhite",
-        "updateBorderColor": "sanctumWhite",
-        "updateForeground": "txtSoulSinner",
-        "updateBackground": "sanctumWhite"
+        "installBorderColor": "white1",
+        "installForeground": "text",
+        "installBackground": "bg1",
+        "installFillForeground": "text",
+        "installFillBackground": "white1",
+        "installFocusedBackground": "white1",
+        "updateBorderColor": "white1",
+        "updateForeground": "text",
+        "updateBackground": "white1"
       },
       "Tab": {
-        "selectedBackground": "sanctumWhite",
-        "selectedForeground": "txtSoulSinner",
-        "hoverBackground": "bgEndOfTunnel"
+        "selectedBackground": "white1",
+        "selectedForeground": "text",
+        "hoverBackground": "bg1"
       }
     },
     "ProgressBar": {
@@ -161,70 +182,65 @@
       "progressColor": "#822e35",
       "indeterminateStartColor": "#6d262c",
       "indeterminateEndColor": "#6d262c",
-      "passedColor": "sanctumWhite",
-      "passedEndColor": "sanctumWhite"
+      "passedColor": "white1",
+      "passedEndColor": "white1"
     },
     "Popup": {
       "Header": {
-        "activeBackground": "bgEndOfTunnel",
-        "inactiveBackground": "sanctumWhite"
+        "activeBackground": "bg1",
+        "inactiveBackground": "white1",
+        "activeForeground": "text"
       }
     },
     "SearchEverywhere": {
       "SearchField": {
-        "background": "bgEndOfTunnel"
+        "background": "bg1"
       },
       "Tab": {
-        "selectedBackground": "sanctumWhite",
-        "selectedForeground": "txtSoulSinner"
+        "selectedBackground": "white1",
+        "selectedForeground": "text"
       }
     },
     "SearchMatch": {
-      "startBackground": "sanctumWhite",
-      "endBackground": "sanctumWhite"
+      "startBackground": "white1",
+      "endBackground": "white1"
     },
-    "Separator.separatorColor": "sanctumWhite",
+    "Separator.separatorColor": "white1",
     "TabbedPane": {
       "tabSelectionHeight": 2,
-      "focusColor": "sanctumWhite",
-      "hoverColor": "sanctumStone",
-      "underlineColor": "sanctumWhite",
-      "contentAreaColor": "bgEndOfTunnel"
+      "focusColor": "white1",
+      "hoverColor": "white2",
+      "underlineColor": "white1",
+      "contentAreaColor": "bg1"
     },
-
     "ToggleButton": {
-      "onBackground": "sanctumWhite",
-      "onForeground": "txtSoulSinner",
+      "onBackground": "white1",
+      "onForeground": "text",
       "offBackground": "#43171b",
-      "offForeground": "txtSoulSinner",
-      "buttonColor": "sanctumWhite"
+      "offForeground": "text",
+      "buttonColor": "white1"
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "sanctumWhite",
-        "selectedBackground":"stainedBgSelection"
+        "hoverBackground": "white1",
+        "selectedBackground": "bgSelection"
       },
       "Header": {
-        "background": "sanctumWhite",
-        "inactiveBackground": "bgEndOfTunnel"
+        "background": "white1",
+        "inactiveBackground": "bg1"
       },
       "HeaderTab": {
-        "underlineColor": "sanctumWhite",
+        "underlineColor": "white1",
         "underlineHeight": 2,
-        "underlinedTabBackground": "bgEndOfTunnel",
-        "underlinedTabInactiveBackground": "sanctumWhite"
+        "underlinedTabBackground": "bg1",
+        "underlinedTabInactiveBackground": "white1"
       }
-    },
-    "Tree": {
-      "modifiedItemForeground": "sanctumWhite",
-      "selectionBackground": "stainedBgSelection",
-      "selectionInactiveBackground": "sanctumWhite"
     },
     "ValidationTooltip": {
       "errorBackground": "#43171b",
       "errorBorderColor": "#43171b",
-      "warningBorderColor": "lastHopewarning",
-      "warningBackground": "lastHopewarning"
+      "warningBorderColor": "warning",
+      "warningBackground": "warning"
     },
     "VersionControl": {
       "FileHistory": {
@@ -233,24 +249,24 @@
         }
       },
       "GitLog": {
-        "headIconColor": "lastHopewarning",
+        "headIconColor": "warning",
         "localBranchIconColor": "#3a7460",
         "remoteBranchIconColor": "#4d3860",
-        "tagIconColor": "sanctumWhite",
+        "tagIconColor": "white1",
         "otherIconColor": "#29617c"
       },
       "Log": {
         "Commit": {
-          "currentBranchBackground": "bgEndOfTunnel"
+          "currentBranchBackground": "bg1"
         }
       }
     },
     "WelcomeScreen": {
-      "separatorColor": "sanctumWhite",
+      "separatorColor": "white1",
       "Projects": {
-        "background": "bgEndOfTunnel",
-        "selectionBackground": "bgEndOfTunnel",
-        "selectionInactiveBackground": "bgEndOfTunnel"
+        "background": "bg1",
+        "selectionBackground": "bg1",
+        "selectionInactiveBackground": "bg1"
       }
     }
   },
@@ -258,29 +274,29 @@
     "ColorPalette": {
       "Actions.Blue": "#29617c",
       "Actions.Green": "#3a7460",
-      "Actions.Grey": "txtSoulSinner",
+      "Actions.Grey": "text",
       "Actions.GreyInline.Dark": "#3a7460",
       "Actions.GreyInline": "#3a7460",
-      "Actions.Red": "sanctumWhite",
-      "Actions.Yellow": "lastHopewarning",
+      "Actions.Red": "white1",
+      "Actions.Yellow": "warning",
       "Objects.Blue": "#29617c",
       "Objects.Green": "#3a7460",
       "Objects.GreenAndroid": "#3a7460",
-      "Objects.Grey": "txtSoulSinner",
-      "Objects.Pink": "sanctumStone",
+      "Objects.Grey": "text",
+      "Objects.Pink": "white2",
       "Objects.Purple": "#4d3860",
-      "Objects.Red": "sanctumWhite",
-      "Objects.RedStatus": "sanctumWhite",
-      "Objects.Yellow": "lastHopewarning",
-      "Objects.YellowDark": "lastHopewarning",
-      "Objects.BlackText": "deadBg",
-      "Checkbox.Border.Default.Dark": "sanctumWhite",
-      "Checkbox.Border.Selected.Dark": "sanctumWhite",
-      "Checkbox.Background.Default.Dark": "deadBg",
-      "Checkbox.Foreground.Selected.Dark": "sanctumWhite",
-      "Checkbox.Focus.Wide.Dark": "sanctumWhite",
-      "Checkbox.Focus.Thin.Selected.Dark": "sanctumWhite",
-      "Checkbox.Focus.Thin.Default.Dark": "sanctumWhite"
+      "Objects.Red": "white1",
+      "Objects.RedStatus": "white1",
+      "Objects.Yellow": "warning",
+      "Objects.YellowDark": "warning",
+      "Objects.BlackText": "bg2",
+      "Checkbox.Border.Default.Dark": "white1",
+      "Checkbox.Border.Selected.Dark": "white1",
+      "Checkbox.Background.Default.Dark": "bg2",
+      "Checkbox.Foreground.Selected.Dark": "white1",
+      "Checkbox.Focus.Wide.Dark": "white1",
+      "Checkbox.Focus.Thin.Selected.Dark": "white1",
+      "Checkbox.Focus.Thin.Default.Dark": "white1"
     }
   }
 }
