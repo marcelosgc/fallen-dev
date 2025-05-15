@@ -12,6 +12,7 @@
     "bgSelection": "#b6b4be",
     "warning": "#c1a875",
     "error": "#801f2d",
+    "errorBorder": "#ca3147",
     "hoverLink": "#922b3f",
     "visitedLink": "#d16579",
     "stopButton": "#b9414b",
@@ -22,7 +23,19 @@
     "fileBlue": "#71b1d0",
     "fileRose": "#d2bcd5",
     "fileViolet": "#b3a8d3",
-    "fileGrey": "#efedf0"
+    "fileGrey": "#efedf0",
+    "objectBlue": "#29617c",
+    "objectGreen": "#3a7460",
+    "objectGreenAndroid": "#3a7445",
+    "objectGrey": "#efedf0",
+    "objectGreyInlineDark": "#8b7d93",
+    "objectPink": "#d2bcd5",
+    "objectPurple": "#7a5f96",
+    "objectRed": "#b9414b",
+    "objectRedStatus": "#b9414b",
+    "objectYellow": "#c1a875",
+    "objectYellowDark": "#b5975a",
+    "objectBlackText": "#2b2b2c"
   },
   "ui": {
     "*": {
@@ -30,7 +43,7 @@
       "background": "bg1",
       "selectionBackground": "bgSelection",
       "selectionInactiveBackground": "white1",
-      "inactiveBackground": "bg2",
+      "inactiveBackground": "white2",
       "borderColor": "white1",
       "underlineColor": "white2"
     },
@@ -45,7 +58,7 @@
     "EditorTabs": {
       "background": "bg1",
       "underlinedTabBackground": "white1",
-      "underlineColor": "white2",
+      "underlineColor": "objectRed",
       "underlineHeight": 5
     },
     "RunToolbar.Debug.activeBackground": "debugButton",
@@ -58,15 +71,15 @@
       "stopBackground": "stopButton"
     },
     "ActionButton": {
-      "hoverBackground": "white1",
-      "hoverBorderColor": "white1",
-      "pressedBackground": "white2",
+      "hoverBackground": "white2",
+      "hoverBorderColor": "white2",
+      "pressedBackground": "white1",
       "pressedBorderColor": "white1"
     },
     "Button": {
       "foreground": "text",
-      "startBorderColor": "white1",
-      "endBorderColor": "white1",
+      "startBorderColor": "white2",
+      "endBorderColor": "white2",
       "startBackground": "white1",
       "endBackground": "white1",
       "focusedBorderColor": "white2",
@@ -74,27 +87,27 @@
         "foreground": "text",
         "startBackground": "white1",
         "endBackground": "white1",
-        "startBorderColor": "white1",
-        "endBorderColor": "white1",
+        "startBorderColor": "white2",
+        "endBorderColor": "white2",
         "focusColor": "white2",
         "focusedBorderColor": "white2"
       }
     },
     "Counter": {
-      "foreground": "text",
-      "background": "white1"
+      "foreground": "fileGrey",
+      "background": "objectRed"
     },
     "CheckBoxMenuItem": {
       "acceleratorSelectionForeground": "white1"
     },
     "ComboBox": {
       "modifiedItemForeground": "text",
-      "selectionBackground": "white2",
+      "selectionBackground": "white1",
       "nonEditableBackground": "white1",
       "ArrowButton": {
-        "background": "bg2",
+        "background": "white1",
         "nonEditableBackground": "bg2",
-        "iconColor": "text"
+        "iconColor": "white2"
       }
     },
     "CompletionPopup": {
@@ -103,16 +116,16 @@
       "matchForeground": "text"
     },
     "Component": {
-      "focusColor": "white1",
-      "borderColor": "white1",
+      "focusColor": "objectRed",
+      "borderColor": "white2",
       "focusedBorderColor": "white1",
       "errorFocusColor": "error",
-      "inactiveErrorFocusColor": "#441018",
+      "inactiveErrorFocusColor": "error",
       "warningFocusColor": "warning",
-      "inactiveWarningFocusColor": "#433210"
+      "inactiveWarningFocusColor": "warning"
     },
     "DragAndDrop": {
-      "areaBackground": "#cb4f66"
+      "areaBackground": "objectRed"
     },
     "FileColor": {
       "Blue": "fileBlue",
@@ -134,16 +147,18 @@
       "pressedForeground": "white1"
     },
     "Notification": {
-      "borderColor": "white1",
-      "errorBorderColor": "error",
+      "borderColor": "white2",
+      "errorBorderColor": "errorBorder",
       "errorBackground": "bg1",
-      "errorForeground": "text",
+      "errorForeground": "error",
+      "background": "bg1",
+      "linkForeground": "objectRed",
       "ToolWindow": {
         "warningForeground": "text",
         "warningBackground": "bg1",
         "warningBorderColor": "warning",
         "errorForeground": "text",
-        "errorBorderColor": "error",
+        "errorBorderColor": "errorBorder",
         "errorBackground": "bg1",
         "informativeForeground": "text",
         "informativeBackground": "bg1",
@@ -151,21 +166,22 @@
       }
     },
     "Plugins": {
+      "tagForeground": "text",
+      "tagBackground": "white1",
       "SearchField": {
-        "background": "bg1"
+        "background": "white1"
       },
       "SectionHeader": {
         "foreground": "text"
       },
-      "lightSelectionBackground": "#22212C",
       "Button": {
-        "installBorderColor": "white1",
         "installForeground": "text",
-        "installBackground": "bg1",
+        "installBackground": "white1",
         "installFillForeground": "text",
-        "installFillBackground": "white1",
-        "installFocusedBackground": "white1",
-        "updateBorderColor": "white1",
+        "installFillBackground": "bg1",
+        "installFocusedBackground": "white2",
+        "installBorderColor": "white2",
+        "updateBorderColor": "white2",
         "updateForeground": "text",
         "updateBackground": "white1"
       },
@@ -214,11 +230,11 @@
       "contentAreaColor": "bg1"
     },
     "ToggleButton": {
-      "onBackground": "white1",
+      "onBackground": "white2",
       "onForeground": "text",
-      "offBackground": "#43171b",
+      "offBackground": "bg2",
       "offForeground": "text",
-      "buttonColor": "white1"
+      "buttonColor": "white2"
     },
     "ToolWindow": {
       "Button": {
@@ -237,8 +253,8 @@
       }
     },
     "ValidationTooltip": {
-      "errorBackground": "#43171b",
-      "errorBorderColor": "#43171b",
+      "errorBackground": "error",
+      "errorBorderColor": "errorBorder",
       "warningBorderColor": "warning",
       "warningBackground": "warning"
     },
@@ -249,9 +265,9 @@
         }
       },
       "GitLog": {
-        "headIconColor": "warning",
-        "localBranchIconColor": "#3a7460",
-        "remoteBranchIconColor": "#4d3860",
+        "headIconColor": "objectYellow",
+        "localBranchIconColor": "objectGreen",
+        "remoteBranchIconColor": "objectPurple",
         "tagIconColor": "white1",
         "otherIconColor": "#29617c"
       },
@@ -265,31 +281,31 @@
       "separatorColor": "white1",
       "Projects": {
         "background": "bg1",
-        "selectionBackground": "bg1",
+        "selectionBackground": "bg2",
         "selectionInactiveBackground": "bg1"
       }
     }
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#29617c",
-      "Actions.Green": "#3a7460",
-      "Actions.Grey": "text",
-      "Actions.GreyInline.Dark": "#3a7460",
-      "Actions.GreyInline": "#3a7460",
-      "Actions.Red": "white1",
-      "Actions.Yellow": "warning",
-      "Objects.Blue": "#29617c",
-      "Objects.Green": "#3a7460",
-      "Objects.GreenAndroid": "#3a7460",
-      "Objects.Grey": "text",
-      "Objects.Pink": "white2",
-      "Objects.Purple": "#4d3860",
-      "Objects.Red": "white1",
-      "Objects.RedStatus": "white1",
-      "Objects.Yellow": "warning",
-      "Objects.YellowDark": "warning",
-      "Objects.BlackText": "bg2",
+      "Actions.Blue": "objectBlue",
+      "Actions.Green": "objectGreen",
+      "Actions.Grey": "objectGrey",
+      "Actions.GreyInline.Dark": "objectGreyInlineDark",
+      "Actions.GreyInline": "objectGrey",
+      "Actions.Red": "objectRed",
+      "Actions.Yellow": "objectYellow",
+      "Objects.Blue": "objectBlue",
+      "Objects.Green": "objectGreen",
+      "Objects.GreenAndroid": "objectGreenAndroid",
+      "Objects.Grey": "objectGrey",
+      "Objects.Pink": "objectPink",
+      "Objects.Purple": "objectPurple",
+      "Objects.Red": "objectRed",
+      "Objects.RedStatus": "objectRedStatus",
+      "Objects.Yellow": "objectYellow",
+      "Objects.YellowDark": "objectYellowDark",
+      "Objects.BlackText": "objectBlackText",
       "Checkbox.Border.Default.Dark": "white1",
       "Checkbox.Border.Selected.Dark": "white1",
       "Checkbox.Background.Default.Dark": "bg2",
