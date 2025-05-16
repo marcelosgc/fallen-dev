@@ -178,8 +178,8 @@
         "installForeground": "text",
         "installBackground": "white1",
         "installFillForeground": "text",
-        "installFillBackground": "bg1",
-        "installFocusedBackground": "white2",
+        "installFillBackground": "white1",
+        "installFocusedBackground": "white1",
         "installBorderColor": "white2",
         "updateBorderColor": "white2",
         "updateForeground": "text",
@@ -282,7 +282,9 @@
       "Projects": {
         "background": "bg1",
         "selectionBackground": "bg2",
-        "selectionInactiveBackground": "bg1"
+        "selectionInactiveBackground": "white1",
+        "actions.background": "white1",
+        "actions.selectionBorderColor": "bgSelection"
       }
     }
   },
