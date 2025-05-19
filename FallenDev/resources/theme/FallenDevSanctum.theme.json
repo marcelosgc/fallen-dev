@@ -77,38 +77,38 @@
       "pressedBorderColor": "white1"
     },
     "Button": {
-      "foreground": "text",
-      "startBorderColor": "white2",
-      "endBorderColor": "white2",
-      "startBackground": "white1",
-      "endBackground": "white1",
-      "focusedBorderColor": "white2",
+      "foreground": "bg1",
+      "startBorderColor": "objectRed",
+      "endBorderColor": "objectRed",
+      "startBackground": "objectRed",
+      "endBackground": "objectRed",
+      "focusedBorderColor": "objectRed",
       "default": {
-        "foreground": "text",
-        "startBackground": "white1",
-        "endBackground": "white1",
-        "startBorderColor": "white2",
-        "endBorderColor": "white2",
-        "focusColor": "white2",
-        "focusedBorderColor": "white2"
+        "foreground": "bg1",
+        "startBackground": "objectRed",
+        "endBackground": "objectRed",
+        "startBorderColor": "objectRed",
+        "endBorderColor": "objectRed",
+        "focusColor": "objectRed",
+        "focusedBorderColor": "objectRed"
       }
     },
     "Counter": {
-      "foreground": "fileGrey",
+      "foreground": "bg1",
       "background": "objectRed"
     },
     "CheckBoxMenuItem": {
       "acceleratorSelectionForeground": "white1"
     },
     "ComboBox": {
-      "modifiedItemForeground": "text",
-      "selectionBackground": "white1",
-      "nonEditableBackground": "white1",
+      "modifiedItemForeground": "objectRed",
       "ArrowButton": {
-        "background": "white1",
+        "background": "bg2",
         "nonEditableBackground": "bg2",
-        "iconColor": "white2"
-      }
+        "iconColor": "objectGrey"
+      },
+      "selectionBackground": "objectGrey",
+      "nonEditableBackground": "objectGrey"
     },
     "CompletionPopup": {
       "selectionBackground": "white1",
@@ -166,29 +166,27 @@
       }
     },
     "Plugins": {
-      "tagForeground": "text",
-      "tagBackground": "white1",
       "SearchField": {
-        "background": "white1"
+        "background": "bgDeep"
       },
       "SectionHeader": {
-        "foreground": "text"
+        "foreground": "objectGrey"
       },
       "Button": {
-        "installForeground": "text",
-        "installBackground": "white1",
-        "installFillForeground": "text",
-        "installFillBackground": "white1",
-        "installFocusedBackground": "white1",
-        "installBorderColor": "white2",
-        "updateBorderColor": "white2",
-        "updateForeground": "text",
-        "updateBackground": "white1"
+        "installBorderColor": "objectRed",
+        "installForeground": "objectGrey",
+        "installBackground": "objectRed",
+        "installFillForeground": "objectGrey",
+        "installFillBackground": "objectRed",
+        "installFocusedBackground": "objectGrey",
+        "updateBorderColor": "objectRed",
+        "updateForeground": "objectGrey",
+        "updateBackground": "objectRed"
       },
       "Tab": {
-        "selectedBackground": "white1",
-        "selectedForeground": "text",
-        "hoverBackground": "bg1"
+        "selectedBackground": "brdrBlind",
+        "selectedForeground": "txtSteel",
+        "hoverBackground": "bgDeep"
       }
     },
     "ProgressBar": {
