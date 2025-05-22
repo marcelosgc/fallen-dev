@@ -65,10 +65,9 @@
     "RunWidget": {
       "foreground": "text",
       "hoverBackground": "white2",
-      "iconColor": "text",
-      "runIconColor": "text",
-      "runningIconColor": "text",
-      "stopBackground": "stopButton"
+      "iconColor": "objectRed",
+      "runIconColor": "objectRed"
+
     },
     "ActionButton": {
       "hoverBackground": "white2",
@@ -78,19 +77,19 @@
     },
     "Button": {
       "foreground": "bg1",
-      "startBorderColor": "objectRed",
-      "endBorderColor": "objectRed",
+      "startBorderColor": "bg1",
+      "endBorderColor": "bg1",
       "startBackground": "objectRed",
       "endBackground": "objectRed",
-      "focusedBorderColor": "objectRed",
+      "focusedBorderColor": "bg1",
       "default": {
         "foreground": "bg1",
         "startBackground": "objectRed",
         "endBackground": "objectRed",
-        "startBorderColor": "objectRed",
-        "endBorderColor": "objectRed",
+        "startBorderColor": "bg1",
+        "endBorderColor": "bg1",
         "focusColor": "objectRed",
-        "focusedBorderColor": "objectRed"
+        "focusedBorderColor": "bg1"
       }
     },
     "Counter": {

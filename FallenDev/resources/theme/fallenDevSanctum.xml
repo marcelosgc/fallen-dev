@@ -511,7 +511,7 @@
         </option>
         <option name="DEFAULT_STATIC_FIELD">
             <value>
-                <option name="FOREGROUND" value="29617c"/>
+                <option name="FOREGROUND" value="715D33"/>
             </value>
         </option>
         <option name="DEFAULT_STATIC_METHOD">
@@ -1574,7 +1574,7 @@
         <option name="Static property reference ID" baseAttributes="STATIC_FINAL_FIELD_ATTRIBUTES"/>
         <option name="TAB_SELECTED">
             <value>
-                <option name="FOREGROUND" value="715d33"/>
+                <option name="FOREGROUND" value="b9414b"/>
             </value>
         </option>
         <option name="TAG_ATTR_KEY">

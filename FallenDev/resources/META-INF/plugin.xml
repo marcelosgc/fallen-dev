@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>FallenDev</id>
-    <version>1.0.15</version>
+    <version>1.0.17</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -40,8 +40,8 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-  Add "Fallen Dev - Sanctum" theme and color scheme.
-  Updated most of the main colors of Sanctum had passed on https://colourcontrast.cc/ to check contrast for other background (such breakpoint line)
+  Added "Fallen Dev - Sanctum" theme and color scheme.
+  Updated Sanctum RUN/Debug widget colors and the static field to differ from static methods. Minor changes on general UI.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
