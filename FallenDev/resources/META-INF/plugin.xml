@@ -40,8 +40,9 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-  Added "Fallen Dev - Sanctum" theme and color scheme.
-  Updated Sanctum RUN/Debug widget colors and the static field to differ from static methods. Minor changes on general UI.
+  Reworked on the principal theme for Fallen Dev
+  Emphasis on dead colors and contrasts to add more "dead like" aspect.
+  WIP original theme to be selected again
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
