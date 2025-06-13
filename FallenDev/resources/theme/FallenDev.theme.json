@@ -4,95 +4,107 @@
   "dark": true,
   "editorScheme": "fallenDev.xml",
   "colors": {
-    "bloodRed": "#a83248",
-    "othersBlood": "#b9414b",
-    "txtSteel": "#d6d7d9",
-    "bgDeep": "#25272d",
-    "brdrBlind": "#1e1f24",
-    "deadBg": "#151320",
-    "stainedBgSelection": "#501822",
-    "lastHopewarning": "#e0c080"
+    "bronze": "#A67D3D",
+    "cobre": "#B87333",
+    "prata": "#C0C0C0",
+    "cinzaEscuro": "#282828",
+    "cinzaMedioPedra": "#404040",
+    "preto": "#000000",
+    "marromEscuroTerroso": "#4B3A26",
+    "marromCouro": "#6F5A40",
+    "ouroEscuro": "#B8860B",
+    "vermelhoSangue": "#740707",
+    "vermelhoSangueEscuro": "#400303",
+    "verdeMusgoSilenciado": "#4F5C4F",
+    "verdeEmpoeirado": "#707A6C",
+    "azulSuave": "#506070",
+    "actionsBlue": "#29617c",
+    "actionsGreen": "#3a7460",
+    "actionsGreyInline": "#A9A9A9",
+    "objectsGreenAndroid": "#5EA93C",
+    "objectsPink": "#9a6792",
+    "objectsPurple": "#674B7C"
   },
   "ui": {
     "*": {
-      "arc": "8",
-      "background": "bgDeep",
-      "selectionBackground": "stainedBgSelection",
-      "selectionInactiveBackground": "brdrBlind",
-      "inactiveBackground": "deadBg",
-      "borderColor": "brdrBlind",
-      "underlineColor": "othersBlood"
+      "arc": "6",
+      "background": "cinzaEscuro",
+      "selectionBackground": "marromEscuroTerroso",
+      "selectionInactiveBackground": "cinzaMedioPedra",
+      "inactiveBackground": "preto",
+      "borderColor": "cinzaMedioPedra",
+      "underlineColor": "cobre"
     },
     "Borders": {
-      "color": "brdrBlind",
-      "ContrastBorderColor": "#181a1f"
+      "color": "cinzaMedioPedra",
+      "ContrastBorderColor": "cinzaMedioPedra"
     },
     "ActionButton": {
-      "hoverBackground": "bloodRed",
-      "hoverBorderColor": "brdrBlind",
-      "pressedBackground": "othersBlood",
-      "pressedBorderColor": "brdrBlind"
+      "hoverBackground": "bronze",
+      "hoverBorderColor": "cinzaMedioPedra",
+      "pressedBackground": "cobre",
+      "pressedBorderColor": "cinzaMedioPedra"
     },
     "Button": {
-      "foreground": "txtSteel",
-      "startBorderColor": "bloodRed",
-      "endBorderColor": "bloodRed",
-      "startBackground": "bloodRed",
-      "endBackground": "bloodRed",
-      "focusedBorderColor": "bloodRed",
+      "foreground": "prata",
+      "startBorderColor": "bronze",
+      "endBorderColor": "bronze",
+      "startBackground": "bronze",
+      "endBackground": "bronze",
+      "focusedBorderColor": "bronze",
       "default": {
-        "foreground": "txtSteel",
-        "startBackground": "bloodRed",
-        "endBackground": "bloodRed",
-        "startBorderColor": "bloodRed",
-        "endBorderColor": "bloodRed",
-        "focusColor": "bloodRed",
-        "focusedBorderColor": "bloodRed"
+        "foreground": "prata",
+        "startBackground": "bronze",
+        "endBackground": "bronze",
+        "startBorderColor": "bronze",
+        "endBorderColor": "bronze",
+        "focusColor": "bronze",
+        "focusedBorderColor": "bronze"
       }
     },
     "Counter": {
-      "foreground": "txtSteel",
-      "background": "bloodRed"
+      "foreground": "prata",
+      "background": "bronze"
     },
     "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "bloodRed"
+      "acceleratorSelectionForeground": "bronze"
     },
     "ComboBox": {
-      "modifiedItemForeground": "bloodRed",
+      "modifiedItemForeground": "bronze",
       "ArrowButton": {
-        "background": "bgDeep",
-        "nonEditableBackground": "deadBg",
-        "iconColor": "txtSteel"
+        "background": "cinzaEscuro",
+        "nonEditableBackground": "preto",
+        "iconColor": "prata"
       },
-      "selectionBackground": "#6f7378",
-      "nonEditableBackground": "brdrBlind"
+      "selectionBackground": "prata",
+      "nonEditableBackground": "cinzaMedioPedra"
     },
     "CompletionPopup": {
-      "selectionBackground": "bloodRed",
-      "selectionInactiveBackground": "brdrBlind",
-      "matchForeground": "txtSteel"
+      "selectionBackground": "bronze",
+      "selectionInactiveBackground": "cinzaMedioPedra",
+      "matchForeground": "prata"
     },
     "Component": {
-      "focusColor": "bloodRed",
-      "borderColor": "bloodRed",
-      "focusedBorderColor": "bloodRed",
-      "errorFocusColor": "#801f2d",
-      "inactiveErrorFocusColor": "#441018",
-      "warningFocusColor": "lastHopewarning",
+      "focusColor": "bronze",
+      "borderColor": "bronze",
+      "focusedBorderColor": "bronze",
+      "errorFocusColor": "vermelhoSangue",
+      "inactiveErrorFocusColor": "vermelhoSangueEscuro",
+      "warningFocusColor": "ouroEscuro",
       "inactiveWarningFocusColor": "#433210"
     },
     "DragAndDrop": {
       "areaBackground": "#cb4f66"
     },
     "Editor": {
-      "background": "bgDeep",
-      "shortcutForeground": "bloodRed"
+      "background": "cinzaEscuro",
+      "shortcutForeground": "bronze"
     },
     "EditorTabs": {
-      "background": "bgDeep",
-      "underlinedTabBackground": "#2a2c33",
-      "underlineColor": "bloodRed",
-      "underlineHeight": 2
+      "background": "cinzaEscuro",
+      "underlinedTabBackground": "cinzaMedioPedra",
+      "underlineColor": "verdeMusgoSilenciado",
+      "underlineHeight": 5
     },
     "FileColor": {
       "Blue": "#0B0D0F",
@@ -103,182 +115,182 @@
       "Violet": "#22212C"
     },
     "Label": {
-      "foreground": "txtSteel",
-      "errorForeground": "#801f2d"
+      "foreground": "prata",
+      "errorForeground": "vermelhoSangue"
     },
     "Link": {
-      "activeForeground": "bloodRed",
-      "hoverForeground": "#922b3f",
-      "visitedForeground": "#d16579",
-      "pressedForeground": "bloodRed"
+      "activeForeground": "bronze",
+      "hoverForeground": "cobre",
+      "visitedForeground": "verdeMusgoSilenciado",
+      "pressedForeground": "bronze"
     },
     "Notification": {
-      "borderColor": "brdrBlind",
-      "errorBorderColor": "#801f2d",
-      "errorBackground": "bgDeep",
-      "errorForeground": "txtSteel",
+      "borderColor": "cinzaMedioPedra",
+      "errorBorderColor": "vermelhoSangue",
+      "errorBackground": "cinzaEscuro",
+      "errorForeground": "prata",
       "ToolWindow": {
-        "warningForeground": "txtSteel",
-        "warningBackground": "bgDeep",
-        "warningBorderColor": "lastHopewarning",
-        "errorForeground": "txtSteel",
-        "errorBorderColor": "#801f2d",
-        "errorBackground": "bgDeep",
-        "informativeForeground": "txtSteel",
-        "informativeBackground": "bgDeep",
-        "informativeBorderColor": "bloodRed"
+        "warningForeground": "prata",
+        "warningBackground": "cinzaEscuro",
+        "warningBorderColor": "ouroEscuro",
+        "errorForeground": "prata",
+        "errorBorderColor": "vermelhoSangueEscuro",
+        "errorBackground": "cinzaEscuro",
+        "informativeForeground": "prata",
+        "informativeBackground": "cinzaEscuro",
+        "informativeBorderColor": "bronze"
       }
     },
     "Plugins": {
       "SearchField": {
-        "background": "bgDeep"
+        "background": "cinzaEscuro"
       },
       "SectionHeader": {
-        "foreground": "txtSteel"
+        "foreground": "prata"
       },
-      "lightSelectionBackground": "#22212C",
+      "lightSelectionBackground": "preto",
       "Button": {
-        "installBorderColor": "bloodRed",
-        "installForeground": "bloodRed",
-        "installBackground": "bgDeep",
-        "installFillForeground": "txtSteel",
-        "installFillBackground": "bloodRed",
-        "installFocusedBackground": "brdrBlind",
-        "updateBorderColor": "bloodRed",
-        "updateForeground": "txtSteel",
-        "updateBackground": "bloodRed"
+        "installBorderColor": "bronze",
+        "installForeground": "bronze",
+        "installBackground": "cinzaEscuro",
+        "installFillForeground": "prata",
+        "installFillBackground": "bronze",
+        "installFocusedBackground": "cinzaMedioPedra",
+        "updateBorderColor": "bronze",
+        "updateForeground": "prata",
+        "updateBackground": "bronze"
       },
       "Tab": {
-        "selectedBackground": "brdrBlind",
-        "selectedForeground": "txtSteel",
-        "hoverBackground": "bgDeep"
+        "selectedBackground": "cinzaMedioPedra",
+        "selectedForeground": "prata",
+        "hoverBackground": "cinzaEscuro"
       }
     },
     "ProgressBar": {
-      "failedColor": "#43171b",
-      "failedEndColor": "#43171b",
-      "trackColor": "#8f323a",
-      "progressColor": "#822e35",
-      "indeterminateStartColor": "#6d262c",
-      "indeterminateEndColor": "#6d262c",
-      "passedColor": "bloodRed",
-      "passedEndColor": "bloodRed"
+      "failedColor": "vermelhoSangueEscuro",
+      "failedEndColor": "vermelhoSangueEscuro",
+      "trackColor": "vermelhoSangue",
+      "progressColor": "vermelhoSangue",
+      "indeterminateStartColor": "marromEscuroTerroso",
+      "indeterminateEndColor": "marromEscuroTerroso",
+      "passedColor": "bronze",
+      "passedEndColor": "bronze"
     },
     "Popup": {
       "Header": {
-        "activeBackground": "bgDeep",
-        "inactiveBackground": "brdrBlind"
+        "activeBackground": "cinzaEscuro",
+        "inactiveBackground": "cinzaMedioPedra"
       }
     },
     "SearchEverywhere": {
       "SearchField": {
-        "background": "bgDeep"
+        "background": "cinzaEscuro"
       },
       "Tab": {
-        "selectedBackground": "brdrBlind",
-        "selectedForeground": "txtSteel"
+        "selectedBackground": "cinzaMedioPedra",
+        "selectedForeground": "prata"
       }
     },
     "SearchMatch": {
-      "startBackground": "bloodRed",
-      "endBackground": "bloodRed"
+      "startBackground": "bronze",
+      "endBackground": "bronze"
     },
-    "Separator.separatorColor": "brdrBlind",
+    "Separator.separatorColor": "cinzaMedioPedra",
     "TabbedPane": {
       "tabSelectionHeight": 2,
-      "focusColor": "bloodRed",
-      "hoverColor": "othersBlood",
-      "underlineColor": "bloodRed",
-      "contentAreaColor": "bgDeep"
+      "focusColor": "bronze",
+      "hoverColor": "cobre",
+      "underlineColor": "bronze",
+      "contentAreaColor": "cinzaEscuro"
     },
     "ToggleButton": {
-      "onBackground": "bloodRed",
-      "onForeground": "txtSteel",
-      "offBackground": "#43171b",
-      "offForeground": "txtSteel",
-      "buttonColor": "bloodRed"
+      "onBackground": "bronze",
+      "onForeground": "prata",
+      "offBackground": "preto",
+      "offForeground": "prata",
+      "buttonColor": "bronze"
     },
     "ToolWindow": {
       "Button": {
-        "hoverBackground": "brdrBlind"
+        "hoverBackground": "cinzaMedioPedra"
       },
       "Header": {
-        "background": "brdrBlind",
-        "inactiveBackground": "bgDeep"
+        "background": "cinzaMedioPedra",
+        "inactiveBackground": "cinzaEscuro"
       },
       "HeaderTab": {
-        "underlineColor": "bloodRed",
+        "underlineColor": "bronze",
         "underlineHeight": 2,
-        "underlinedTabBackground": "bgDeep",
-        "underlinedTabInactiveBackground": "brdrBlind"
+        "underlinedTabBackground": "cinzaEscuro",
+        "underlinedTabInactiveBackground": "cinzaMedioPedra"
       }
     },
     "Tree": {
-      "modifiedItemForeground": "bloodRed",
-      "selectionBackground": "stainedBgSelection",
-      "selectionInactiveBackground": "brdrBlind"
+      "modifiedItemForeground": "bronze",
+      "selectionBackground": "marromEscuroTerroso",
+      "selectionInactiveBackground": "cinzaMedioPedra"
     },
     "ValidationTooltip": {
-      "errorBackground": "#43171b",
-      "errorBorderColor": "#43171b",
-      "warningBorderColor": "lastHopewarning",
-      "warningBackground": "lastHopewarning"
+      "errorBackground": "vermelhoSangueEscuro",
+      "errorBorderColor": "vermelhoSangueEscuro",
+      "warningBorderColor": "ouroEscuro",
+      "warningBackground": "ouroEscuro"
     },
     "VersionControl": {
       "FileHistory": {
         "Commit": {
-          "selectedBranchBackground": "#22212C"
+          "selectedBranchBackground": "preto"
         }
       },
       "GitLog": {
-        "headIconColor": "lastHopewarning",
-        "localBranchIconColor": "#3a7460",
-        "remoteBranchIconColor": "#4d3860",
-        "tagIconColor": "bloodRed",
-        "otherIconColor": "#29617c"
+        "headIconColor": "ouroEscuro",
+        "localBranchIconColor": "verdeEmpoeirado",
+        "remoteBranchIconColor": "marromCouro",
+        "tagIconColor": "bronze",
+        "otherIconColor": "azulSuave"
       },
       "Log": {
         "Commit": {
-          "currentBranchBackground": "bgDeep"
+          "currentBranchBackground": "cinzaEscuro"
         }
       }
     },
     "WelcomeScreen": {
-      "separatorColor": "brdrBlind",
+      "separatorColor": "cinzaMedioPedra",
       "Projects": {
-        "background": "bgDeep",
-        "selectionBackground": "bgDeep",
-        "selectionInactiveBackground": "bgDeep"
+        "background": "cinzaEscuro",
+        "selectionBackground": "cinzaEscuro",
+        "selectionInactiveBackground": "cinzaEscuro"
       }
     }
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Blue": "#29617c",
-      "Actions.Green": "#3a7460",
-      "Actions.Grey": "txtSteel",
-      "Actions.GreyInline.Dark": "#3a7460",
-      "Actions.GreyInline": "#3a7460",
-      "Actions.Red": "bloodRed",
-      "Actions.Yellow": "lastHopewarning",
-      "Objects.Blue": "#29617c",
-      "Objects.Green": "#3a7460",
-      "Objects.GreenAndroid": "#3a7460",
-      "Objects.Grey": "txtSteel",
-      "Objects.Pink": "othersBlood",
-      "Objects.Purple": "#4d3860",
-      "Objects.Red": "bloodRed",
-      "Objects.RedStatus": "bloodRed",
-      "Objects.Yellow": "lastHopewarning",
-      "Objects.YellowDark": "lastHopewarning",
-      "Objects.BlackText": "deadBg",
-      "Checkbox.Border.Default.Dark": "brdrBlind",
-      "Checkbox.Border.Selected.Dark": "brdrBlind",
-      "Checkbox.Background.Default.Dark": "deadBg",
-      "Checkbox.Foreground.Selected.Dark": "bloodRed",
-      "Checkbox.Focus.Wide.Dark": "bloodRed",
-      "Checkbox.Focus.Thin.Selected.Dark": "bloodRed",
-      "Checkbox.Focus.Thin.Default.Dark": "bloodRed"
+      "Actions.Blue": "actionsBlue",
+      "Actions.Green": "actionsGreen",
+      "Actions.Grey": "prata",
+      "Actions.GreyInline.Dark": "actionsGreyInline",
+      "Actions.GreyInline": "actionsGreyInline",
+      "Actions.Red": "vermelhoSangue",
+      "Actions.Yellow": "ouroEscuro",
+      "Objects.Blue": "actionsBlue",
+      "Objects.Green": "actionsGreen",
+      "Objects.GreenAndroid": "objectsGreenAndroid",
+      "Objects.Grey": "prata",
+      "Objects.Pink": "objectsPink",
+      "Objects.Purple": "objectsPurple",
+      "Objects.Red": "bronze",
+      "Objects.RedStatus": "bronze",
+      "Objects.Yellow": "ouroEscuro",
+      "Objects.YellowDark": "ouroEscuro",
+      "Objects.BlackText": "preto",
+      "Checkbox.Border.Default.Dark": "cinzaMedioPedra",
+      "Checkbox.Border.Selected.Dark": "cinzaMedioPedra",
+      "Checkbox.Background.Default.Dark": "preto",
+      "Checkbox.Foreground.Selected.Dark": "bronze",
+      "Checkbox.Focus.Wide.Dark": "bronze",
+      "Checkbox.Focus.Thin.Selected.Dark": "bronze",
+      "Checkbox.Focus.Thin.Default.Dark": "bronze"
     }
   }
 }
