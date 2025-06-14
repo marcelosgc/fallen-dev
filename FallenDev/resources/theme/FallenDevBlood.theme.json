@@ -1,8 +1,8 @@
-﻿{
-  "name": "Fallen Dev - Origin",
+{
+  "name": "Fallen Dev - Blood",
   "author": "Marcelo Carvalho",
   "dark": true,
-  "editorScheme": "fallenDev.xml",
+  "editorScheme": "fallenDevBlood.xml",
   "colors": {
     "bloodRed": "#a83248",
     "othersBlood": "#b9414b",

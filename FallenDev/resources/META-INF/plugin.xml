@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>FallenDev</id>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -42,7 +42,7 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <change-notes><![CDATA[
   Reworked on the principal theme for Fallen Dev
   Emphasis on dead colors and contrasts to add more "dead like" aspect.
-  WIP original theme to be selected again
+  *** Blood (old) theme is alive again ***
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
@@ -52,5 +52,6 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <extensions defaultExtensionNs="com.intellij">
         <themeProvider id="FallenDev" path="/theme/FallenDev.theme.json"/>
         <themeProvider id="FallenDevSanctum" path="/theme/FallenDevSanctum.theme.json"/>
+        <themeProvider id="FallenDevBlood" path="/theme/FallenDevBlood.theme.json"/>
     </extensions>
 </idea-plugin>
