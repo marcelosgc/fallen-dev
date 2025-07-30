@@ -73,7 +73,7 @@
     <attributes>
         <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="506070"/>
+                <option name="FOREGROUND" value="6A7D9A"/>
             </value>
         </option>
         <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA"/>
@@ -373,7 +373,7 @@
         </option>
         <option name="DEFAULT_CLASS_NAME">
             <value>
-                <option name="FOREGROUND" value="506070"/>
+                <option name="FOREGROUND" value="6A7D9A"/>
             </value>
         </option>
         <option name="DEFAULT_CLASS_REFERENCE">
@@ -452,7 +452,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="f2d49c"/>
+                <option name="FOREGROUND" value="4F6E91"/>
             </value>
         </option>
         <option name="DEFAULT_LABEL">
