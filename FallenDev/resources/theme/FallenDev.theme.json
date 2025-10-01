@@ -4,8 +4,8 @@
   "dark": true,
   "editorScheme": "fallenDev.xml",
   "colors": {
-    "bronze": "#516251",
-    "cobre": "#A67D3D",
+    "verdeTumulo": "#516251",
+    "ouroVelho": "#A67D3D",
     "prata": "#C0C0C0",
     "cinzaEscuro": "#2D2E30",
     "cinzaMedioPedra": "#404040",
@@ -33,44 +33,44 @@
       "selectionInactiveBackground": "cinzaMedioPedra",
       "inactiveBackground": "preto",
       "borderColor": "cinzaMedioPedra",
-      "underlineColor": "cobre"
+      "underlineColor": "ouroVelho"
     },
     "Borders": {
       "color": "cinzaMedioPedra",
       "ContrastBorderColor": "cinzaMedioPedra"
     },
     "ActionButton": {
-      "hoverBackground": "bronze",
+      "hoverBackground": "verdeTumulo",
       "hoverBorderColor": "cinzaMedioPedra",
-      "pressedBackground": "cobre",
+      "pressedBackground": "ouroVelho",
       "pressedBorderColor": "cinzaMedioPedra"
     },
     "Button": {
       "foreground": "prata",
-      "startBorderColor": "bronze",
-      "endBorderColor": "bronze",
-      "startBackground": "bronze",
-      "endBackground": "bronze",
-      "focusedBorderColor": "bronze",
+      "startBorderColor": "verdeTumulo",
+      "endBorderColor": "verdeTumulo",
+      "startBackground": "verdeTumulo",
+      "endBackground": "verdeTumulo",
+      "focusedBorderColor": "verdeTumulo",
       "default": {
         "foreground": "prata",
-        "startBackground": "bronze",
-        "endBackground": "bronze",
-        "startBorderColor": "bronze",
-        "endBorderColor": "bronze",
-        "focusColor": "bronze",
-        "focusedBorderColor": "bronze"
+        "startBackground": "verdeTumulo",
+        "endBackground": "verdeTumulo",
+        "startBorderColor": "verdeTumulo",
+        "endBorderColor": "verdeTumulo",
+        "focusColor": "verdeTumulo",
+        "focusedBorderColor": "verdeTumulo"
       }
     },
     "Counter": {
       "foreground": "prata",
-      "background": "bronze"
+      "background": "verdeTumulo"
     },
     "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "bronze"
+      "acceleratorSelectionForeground": "verdeTumulo"
     },
     "ComboBox": {
-      "modifiedItemForeground": "bronze",
+      "modifiedItemForeground": "verdeTumulo",
       "ArrowButton": {
         "background": "cinzaEscuro",
         "nonEditableBackground": "preto",
@@ -80,14 +80,14 @@
       "nonEditableBackground": "cinzaMedioPedra"
     },
     "CompletionPopup": {
-      "selectionBackground": "bronze",
+      "selectionBackground": "verdeTumulo",
       "selectionInactiveBackground": "cinzaMedioPedra",
       "matchForeground": "prata"
     },
     "Component": {
-      "focusColor": "bronze",
-      "borderColor": "bronze",
-      "focusedBorderColor": "bronze",
+      "focusColor": "verdeTumulo",
+      "borderColor": "verdeTumulo",
+      "focusedBorderColor": "verdeTumulo",
       "errorFocusColor": "vermelhoSangue",
       "inactiveErrorFocusColor": "vermelhoSangueEscuro",
       "warningFocusColor": "ouroEscuro",
@@ -98,7 +98,7 @@
     },
     "Editor": {
       "background": "cinzaEscuro",
-      "shortcutForeground": "bronze"
+      "shortcutForeground": "verdeTumulo"
     },
     "EditorTabs": {
       "background": "cinzaEscuro",
@@ -119,10 +119,10 @@
       "errorForeground": "vermelhoSangue"
     },
     "Link": {
-      "activeForeground": "bronze",
-      "hoverForeground": "cobre",
-      "visitedForeground": "verdeMusgoSilenciado",
-      "pressedForeground": "bronze"
+      "activeForeground": "ouroVelho",
+      "hoverForeground": "ouroVelho",
+      "visitedForeground": "cinzaMedioPedra",
+      "pressedForeground": "ouroEscuro"
     },
     "Notification": {
       "borderColor": "cinzaMedioPedra",
@@ -138,7 +138,7 @@
         "errorBackground": "cinzaEscuro",
         "informativeForeground": "prata",
         "informativeBackground": "cinzaEscuro",
-        "informativeBorderColor": "bronze"
+        "informativeBorderColor": "verdeTumulo"
       }
     },
     "Plugins": {
@@ -150,15 +150,15 @@
       },
       "lightSelectionBackground": "preto",
       "Button": {
-        "installBorderColor": "bronze",
-        "installForeground": "bronze",
+        "installBorderColor": "verdeTumulo",
+        "installForeground": "verdeTumulo",
         "installBackground": "cinzaEscuro",
         "installFillForeground": "prata",
-        "installFillBackground": "bronze",
+        "installFillBackground": "verdeTumulo",
         "installFocusedBackground": "cinzaMedioPedra",
-        "updateBorderColor": "bronze",
+        "updateBorderColor": "verdeTumulo",
         "updateForeground": "prata",
-        "updateBackground": "bronze"
+        "updateBackground": "verdeTumulo"
       },
       "Tab": {
         "selectedBackground": "cinzaMedioPedra",
@@ -173,8 +173,8 @@
       "progressColor": "vermelhoSangue",
       "indeterminateStartColor": "marromEscuroTerroso",
       "indeterminateEndColor": "marromEscuroTerroso",
-      "passedColor": "bronze",
-      "passedEndColor": "bronze"
+      "passedColor": "verdeTumulo",
+      "passedEndColor": "verdeTumulo"
     },
     "Popup": {
       "Header": {
@@ -192,23 +192,23 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "bronze",
-      "endBackground": "bronze"
+      "startBackground": "verdeTumulo",
+      "endBackground": "verdeTumulo"
     },
     "Separator.separatorColor": "cinzaMedioPedra",
     "TabbedPane": {
       "tabSelectionHeight": 2,
-      "focusColor": "bronze",
-      "hoverColor": "cobre",
-      "underlineColor": "bronze",
+      "focusColor": "verdeTumulo",
+      "hoverColor": "ouroVelho",
+      "underlineColor": "verdeTumulo",
       "contentAreaColor": "cinzaEscuro"
     },
     "ToggleButton": {
-      "onBackground": "bronze",
+      "onBackground": "verdeTumulo",
       "onForeground": "prata",
       "offBackground": "preto",
       "offForeground": "prata",
-      "buttonColor": "bronze"
+      "buttonColor": "verdeTumulo"
     },
     "ToolWindow": {
       "Button": {
@@ -219,14 +219,14 @@
         "inactiveBackground": "cinzaEscuro"
       },
       "HeaderTab": {
-        "underlineColor": "bronze",
+        "underlineColor": "verdeTumulo",
         "underlineHeight": 2,
         "underlinedTabBackground": "cinzaEscuro",
         "underlinedTabInactiveBackground": "cinzaMedioPedra"
       }
     },
     "Tree": {
-      "modifiedItemForeground": "bronze",
+      "modifiedItemForeground": "verdeTumulo",
       "selectionBackground": "marromEscuroTerroso",
       "selectionInactiveBackground": "cinzaMedioPedra"
     },
@@ -246,7 +246,7 @@
         "headIconColor": "ouroEscuro",
         "localBranchIconColor": "verdeEmpoeirado",
         "remoteBranchIconColor": "marromCouro",
-        "tagIconColor": "bronze",
+        "tagIconColor": "verdeTumulo",
         "otherIconColor": "azulSuave"
       },
       "Log": {
@@ -279,18 +279,18 @@
       "Objects.Grey": "prata",
       "Objects.Pink": "objectsPink",
       "Objects.Purple": "objectsPurple",
-      "Objects.Red": "bronze",
-      "Objects.RedStatus": "bronze",
+      "Objects.Red": "verdeTumulo",
+      "Objects.RedStatus": "verdeTumulo",
       "Objects.Yellow": "ouroEscuro",
       "Objects.YellowDark": "ouroEscuro",
       "Objects.BlackText": "preto",
       "Checkbox.Border.Default.Dark": "cinzaMedioPedra",
       "Checkbox.Border.Selected.Dark": "cinzaMedioPedra",
       "Checkbox.Background.Default.Dark": "preto",
-      "Checkbox.Foreground.Selected.Dark": "bronze",
-      "Checkbox.Focus.Wide.Dark": "bronze",
-      "Checkbox.Focus.Thin.Selected.Dark": "bronze",
-      "Checkbox.Focus.Thin.Default.Dark": "bronze"
+      "Checkbox.Foreground.Selected.Dark": "verdeTumulo",
+      "Checkbox.Focus.Wide.Dark": "verdeTumulo",
+      "Checkbox.Focus.Thin.Selected.Dark": "verdeTumulo",
+      "Checkbox.Focus.Thin.Default.Dark": "verdeTumulo"
     }
   }
 }
