@@ -4,12 +4,12 @@
         <option name="ADDED_LINES_COLOR" value="4F9E83"/>
         <option name="ANNOTATIONS_COLOR" value="2A2C33"/>
         <option name="CARET_COLOR" value="A67D3D"/>
-        <option name="CARET_ROW_COLOR" value="2A2C33"/>
+        <option name="CARET_ROW_COLOR" value="1D1E1E"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="2C2E33"/>
         <option name="DELETED_LINES_COLOR" value="7B0000"/>
         <option name="DIFF_SEPARATOR_WAVE" value="383A3D"/>
         <option name="DOCUMENTATION_COLOR" value="2A2C33"/>
-        <option name="ERROR_HINT" value="2A2C33"/>
+        <option name="ERROR_HINT" value="7B0000"/>
         <option name="FILESTATUS_ADDED" value="4F9E83"/>
         <option name="FILESTATUS_DELETED" value="7B0000"/>
         <option name="FILESTATUS_HIJACKED" value="FFFF80"/>

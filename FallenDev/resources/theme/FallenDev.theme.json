@@ -7,7 +7,7 @@
     "verdeTumulo": "#516251",
     "ouroVelho": "#A67D3D",
     "prata": "#C0C0C0",
-    "cinzaEscuro": "#2D2E30",
+    "cinzaEscuro": "#2a2c31",
     "cinzaMedioPedra": "#404040",
     "preto": "#000000",
     "marromEscuroTerroso": "#4B3A26",
@@ -76,7 +76,7 @@
         "nonEditableBackground": "preto",
         "iconColor": "prata"
       },
-      "selectionBackground": "prata",
+      "selectionBackground": "ouroVelho",
       "nonEditableBackground": "cinzaMedioPedra"
     },
     "CompletionPopup": {
