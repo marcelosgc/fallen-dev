@@ -40,6 +40,7 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
+  *ADDED MISSING STRING COLOR*
   Minor adjustment to the Mournstead theme, dropdowns was unable to see the values inside of it. Updated the color of UI to match better the editor. Updated the string color to a dead purple to represent "spirits".
   ]]></change-notes>
 
