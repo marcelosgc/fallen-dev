@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>FallenDev</id>
-    <version>1.1.8</version>
+    <version>1.1.10</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -40,8 +40,7 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-  *ADDED MISSING STRING COLOR*
-  Minor adjustment to the Mournstead theme, dropdowns was unable to see the values inside of it. Updated the color of UI to match better the editor. Updated the string color to a dead purple to represent "spirits".
+  Minor adjustment to the Mournstead theme like selection color (to be more dried blood like), search results to not be like errors, current line and injection to not be so dark and confusing
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
