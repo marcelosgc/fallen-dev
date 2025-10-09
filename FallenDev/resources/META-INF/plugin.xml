@@ -2,7 +2,7 @@
 <idea-plugin>
     <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>FallenDev</id>
-    <version>1.1.11</version>
+    <version>1.1.12</version>
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
@@ -40,7 +40,7 @@ Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-  Minor adjustment to the Mournstead theme. Debug colors, selection (missed on last version), darker default string color
+  Minor adjustment to the Mournstead theme. Theme name to normalize.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.
