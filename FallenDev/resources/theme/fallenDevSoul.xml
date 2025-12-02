@@ -1,4 +1,4 @@
-﻿<scheme name="Fallen Dev" version="142" parent_scheme="Darcula">
+﻿<scheme name="Fallen Dev - Soul" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0"/>
     <colors>
         <option name="ADDED_LINES_COLOR" value="4167A6"/>
@@ -42,8 +42,8 @@
         <option name="IGNORED_MODIFIED_LINES_BORDER_COLOR" value="C1A875"/>
         <option name="INDENT_GUIDE" value="2A2C33"/>
         <option name="INFORMATION_HINT" value="2A2C33"/>
-        <option name="LINE_NUMBERS_COLOR" value="D3D3D3"/>
-        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="777B80"/>
+        <option name="LINE_NUMBERS_COLOR" value="777B80"/>
+        <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="D3D3D3"/>
         <option name="LOOKUP_COLOR" value="2A2C33"/>
         <option name="MATCHED_BRACES_INDENT_GUIDE_COLOR" value="314E7D"/>
         <option name="MODIFIED_LINES_COLOR" value="D5C4A1"/>
@@ -55,7 +55,7 @@
         <option name="RIGHT_MARGIN_COLOR" value="262626"/>
         <option name="SELECTED_INDENT_GUIDE" value="25272D"/>
         <option name="SELECTED_TEARLINE_COLOR" value="A67D3D"/>
-        <option name="SELECTION_BACKGROUND" value="3a4044"/>
+        <option name="SELECTION_BACKGROUND" value="653F69"/>
         <option name="SEPARATOR_ABOVE_COLOR" value="454158"/>
         <option name="SEPARATOR_BELOW_COLOR" value="454158"/>
         <option name="TEARLINE_COLOR" value="404040"/>

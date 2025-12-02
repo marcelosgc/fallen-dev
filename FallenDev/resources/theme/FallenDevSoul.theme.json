@@ -4,13 +4,13 @@
   "dark": true,
   "editorScheme": "fallenDevSoul.xml",
   "colors": {
-    "principal": "#5A8FE6",
+    "principal": "#297eff",
     "secundaria": "#4A76BD",
     "textoPrincipal": "#E0E0E0",
     "fundoprincipal": "#1A1A1A",
-    "cinzaMedioPedra": "#506070",
+    "cinzaMedioPedra": "#1A1A1A",
     "borda": "#131313",
-    "selecaoPrincipal": "#5A8FE6",
+    "selecaoPrincipal": "#297eff",
     "marromCouro": "#6F5A40",
     "ouroEscuro": "#B8860B",
     "vermelhoSangue": "#740707",
@@ -76,7 +76,7 @@
         "nonEditableBackground": "borda",
         "iconColor": "textoPrincipal"
       },
-      "selectionBackground": "textoPrincipal",
+      "selectionBackground": "principal",
       "nonEditableBackground": "cinzaMedioPedra"
     },
     "CompletionPopup": {
