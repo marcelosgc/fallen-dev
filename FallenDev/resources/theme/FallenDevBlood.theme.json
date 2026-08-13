@@ -199,6 +199,7 @@
       "buttonColor": "bloodRed"
     },
     "ToolWindow": {
+      "background": "bgDeep",
       "Button": {
         "hoverBackground": "brdrBlind"
       },
@@ -214,6 +215,7 @@
       }
     },
     "Tree": {
+      "background": "bgDeep",
       "modifiedItemForeground": "bloodRed",
       "selectionBackground": "#3d232b",
       "selectionInactiveBackground": "brdrBlind"

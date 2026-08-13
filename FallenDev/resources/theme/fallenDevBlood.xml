@@ -2,7 +2,7 @@
     <option name="FONT_SCALE" value="1.0"/>
     <colors>
         <option name="ADDED_LINES_COLOR" value="3A7460"/>
-        <option name="ANNOTATIONS_COLOR" value="2A2C33"/>
+        <option name="ANNOTATIONS_COLOR" value="1E1F24"/>
         <option name="CARET_COLOR" value="B9414B"/>
         <option name="CARET_ROW_COLOR" value="323040"/>
         <option name="CONSOLE_BACKGROUND_KEY" value="1E1F24"/>
@@ -30,7 +30,7 @@
         <option name="FILESTATUS_addedOutside" value="85898e"/>
         <option name="FILESTATUS_changelistConflict" value="FF80BF"/>
         <option name="FILESTATUS_modifiedOutside" value="85898e"/>
-        <option name="GUTTER_BACKGROUND" value="22212C"/>
+        <option name="GUTTER_BACKGROUND" value="1E1F24"/>
         <option name="HINT_BORDER" value="2A2C33"/>
         <option name="HTML_TAG_TREE_LEVEL0" value="BA091E"/>
         <option name="HTML_TAG_TREE_LEVEL1" value="D4AF37"/>
