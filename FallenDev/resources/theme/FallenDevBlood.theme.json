@@ -4,13 +4,13 @@
   "dark": true,
   "editorScheme": "fallenDevBlood.xml",
   "colors": {
-    "bloodRed": "#a83248",
+    "bloodRed": "#a73b44",
     "othersBlood": "#b9414b",
     "txtSteel": "#d6d7d9",
-    "bgDeep": "#25272d",
-    "brdrBlind": "#1e1f24",
+    "bgDeep": "#1e1f24",
+    "brdrBlind": "#2a2c33",
     "deadBg": "#151320",
-    "stainedBgSelection": "#501822",
+    "stainedBgSelection": "#4a2730",
     "lastHopewarning": "#e0c080"
   },
   "ui": {
@@ -64,11 +64,11 @@
         "nonEditableBackground": "deadBg",
         "iconColor": "txtSteel"
       },
-      "selectionBackground": "#6f7378",
+      "selectionBackground": "#454158",
       "nonEditableBackground": "brdrBlind"
     },
     "CompletionPopup": {
-      "selectionBackground": "bloodRed",
+      "selectionBackground": "stainedBgSelection",
       "selectionInactiveBackground": "brdrBlind",
       "matchForeground": "txtSteel"
     },
@@ -90,7 +90,7 @@
     },
     "EditorTabs": {
       "background": "bgDeep",
-      "underlinedTabBackground": "#2a2c33",
+      "underlinedTabBackground": "brdrBlind",
       "underlineColor": "bloodRed",
       "underlineHeight": 2
     },
@@ -107,8 +107,8 @@
       "errorForeground": "#801f2d"
     },
     "Link": {
-      "activeForeground": "bloodRed",
-      "hoverForeground": "#922b3f",
+      "activeForeground": "othersBlood",
+      "hoverForeground": "bloodRed",
       "visitedForeground": "#d16579",
       "pressedForeground": "bloodRed"
     },
@@ -155,10 +155,10 @@
       }
     },
     "ProgressBar": {
-      "failedColor": "#43171b",
-      "failedEndColor": "#43171b",
-      "trackColor": "#8f323a",
-      "progressColor": "#822e35",
+      "failedColor": "#4b2028",
+      "failedEndColor": "#4b2028",
+      "trackColor": "#7b3038",
+      "progressColor": "#a73b44",
       "indeterminateStartColor": "#6d262c",
       "indeterminateEndColor": "#6d262c",
       "passedColor": "bloodRed",
@@ -180,8 +180,8 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "bloodRed",
-      "endBackground": "bloodRed"
+      "startBackground": "stainedBgSelection",
+      "endBackground": "stainedBgSelection"
     },
     "Separator.separatorColor": "brdrBlind",
     "TabbedPane": {
@@ -194,7 +194,7 @@
     "ToggleButton": {
       "onBackground": "bloodRed",
       "onForeground": "txtSteel",
-      "offBackground": "#43171b",
+      "offBackground": "deadBg",
       "offForeground": "txtSteel",
       "buttonColor": "bloodRed"
     },
@@ -215,7 +215,7 @@
     },
     "Tree": {
       "modifiedItemForeground": "bloodRed",
-      "selectionBackground": "stainedBgSelection",
+      "selectionBackground": "#3d232b",
       "selectionInactiveBackground": "brdrBlind"
     },
     "ValidationTooltip": {
