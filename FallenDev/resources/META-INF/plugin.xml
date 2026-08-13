@@ -16,7 +16,7 @@
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description>
         <![CDATA[
-            Fallen Dev is a meticulously crafted dark and light theme for developers who crave a somber, immersive coding atmosphere. Inspired by the haunting aesthetics of Lords of the Fallen and the gothic beauty of dark fantasy, this theme blends elegance with intensity — perfect for late-night coding rituals.
+            Fallen Dev is a meticulously crafted dark and light theme pack for developers who crave a somber, immersive coding atmosphere. Inspired by the haunting aesthetics of Lords of the Fallen and the gothic beauty of dark fantasy, the Blood palette now leans into cold charcoal, steel text, restrained crimson accents, and softer eye-friendly contrast for long coding sessions.
                 <br>
                     Font pairing: Best experienced with Fantasque Sans Mono or JetBrains Mono]]>
     </description>
@@ -24,8 +24,7 @@
     <!-- Short summary of new features and bugfixes in the latest plugin version.
          Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
     <change-notes><![CDATA[
-  ** Added Soul theme **
-  Minor adjustments to the colors on IDE. Dropdown had bot colors for text and background
+  Reworked Blood, Sanctum, Mournstead, and Soul with refreshed palettes and improved contrast.
   ]]></change-notes>
 
     <!-- Product and plugin compatibility requirements.

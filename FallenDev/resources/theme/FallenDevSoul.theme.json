@@ -4,26 +4,26 @@
   "dark": true,
   "editorScheme": "fallenDevSoul.xml",
   "colors": {
-    "principal": "#297eff",
-    "secundaria": "#4A76BD",
-    "textoPrincipal": "#E0E0E0",
-    "fundoprincipal": "#1A1A1A",
-    "cinzaMedioPedra": "#1A1A1A",
-    "borda": "#131313",
-    "selecaoPrincipal": "#297eff",
+    "principal": "#7B9DDA",
+    "secundaria": "#7A6FA2",
+    "textoPrincipal": "#D8D8DE",
+    "fundoprincipal": "#1E1A22",
+    "cinzaMedioPedra": "#2A2430",
+    "borda": "#141117",
+    "selecaoPrincipal": "#5D4D73",
     "marromCouro": "#6F5A40",
     "ouroEscuro": "#B8860B",
-    "vermelhoSangue": "#740707",
-    "vermelhoSangueEscuro": "#400303",
-    "verdeMusgoSilenciado": "#4F5C4F",
-    "verdeEmpoeirado": "#707A6C",
-    "azulSuave": "#506070",
+    "vermelhoSangue": "#7A1E2B",
+    "vermelhoSangueEscuro": "#401018",
+    "verdeMusgoSilenciado": "#4B5358",
+    "verdeEmpoeirado": "#7A7F89",
+    "azulSuave": "#5B6982",
     "actionsBlue": "#29617c",
-    "actionsGreen": "#3a7460",
-    "actionsGreyInline": "#E0E0E0",
-    "objectsGreenAndroid": "#5EA93C",
-    "objectsPink": "#9a6792",
-    "objectsPurple": "#674B7C"
+    "actionsGreen": "#4A6470",
+    "actionsGreyInline": "#A9A7B4",
+    "objectsGreenAndroid": "#6A7E8F",
+    "objectsPink": "#9E7DB1",
+    "objectsPurple": "#6C5B8E"
   },
   "ui": {
     "*": {
@@ -40,34 +40,34 @@
       "ContrastBorderColor": "cinzaMedioPedra"
     },
     "ActionButton": {
-      "hoverBackground": "principal",
+      "hoverBackground": "secundaria",
       "hoverBorderColor": "borda",
       "pressedBackground": "secundaria",
       "pressedBorderColor": "borda"
     },
     "Button": {
       "foreground": "textoPrincipal",
-      "startBorderColor": "principal",
-      "endBorderColor": "principal",
-      "startBackground": "principal",
-      "endBackground": "principal",
+      "startBorderColor": "secundaria",
+      "endBorderColor": "secundaria",
+      "startBackground": "secundaria",
+      "endBackground": "secundaria",
       "focusedBorderColor": "principal",
       "default": {
         "foreground": "textoPrincipal",
-        "startBackground": "principal",
-        "endBackground": "principal",
-        "startBorderColor": "principal",
-        "endBorderColor": "principal",
+        "startBackground": "secundaria",
+        "endBackground": "secundaria",
+        "startBorderColor": "secundaria",
+        "endBorderColor": "secundaria",
         "focusColor": "principal",
         "focusedBorderColor": "principal"
       }
     },
     "Counter": {
       "foreground": "textoPrincipal",
-      "background": "principal"
+      "background": "secundaria"
     },
     "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "principal"
+      "acceleratorSelectionForeground": "secundaria"
     },
     "ComboBox": {
       "modifiedItemForeground": "principal",
@@ -76,17 +76,17 @@
         "nonEditableBackground": "borda",
         "iconColor": "textoPrincipal"
       },
-      "selectionBackground": "principal",
+      "selectionBackground": "secundaria",
       "nonEditableBackground": "cinzaMedioPedra"
     },
     "CompletionPopup": {
-      "selectionBackground": "principal",
+      "selectionBackground": "selecaoPrincipal",
       "selectionInactiveBackground": "cinzaMedioPedra",
       "matchForeground": "textoPrincipal"
     },
     "Component": {
-      "focusColor": "principal",
-      "borderColor": "principal",
+      "focusColor": "secundaria",
+      "borderColor": "secundaria",
       "focusedBorderColor": "principal",
       "errorFocusColor": "vermelhoSangue",
       "inactiveErrorFocusColor": "vermelhoSangueEscuro",
@@ -98,13 +98,13 @@
     },
     "Editor": {
       "background": "fundoprincipal",
-      "shortcutForeground": "principal"
+      "shortcutForeground": "secundaria"
     },
     "EditorTabs": {
       "background": "fundoprincipal",
       "underlinedTabBackground": "fundoprincipal",
-      "underlineColor": "principal",
-      "underlineHeight": 5
+      "underlineColor": "secundaria",
+      "underlineHeight": 3
     },
     "FileColor": {
       "Blue": "#0B0D0F",
@@ -121,7 +121,7 @@
     "Link": {
       "activeForeground": "principal",
       "hoverForeground": "secundaria",
-      "visitedForeground": "verdeMusgoSilenciado",
+      "visitedForeground": "objectsPurple",
       "pressedForeground": "principal"
     },
     "Notification": {
@@ -138,7 +138,7 @@
         "errorBackground": "fundoprincipal",
         "informativeForeground": "textoPrincipal",
         "informativeBackground": "fundoprincipal",
-        "informativeBorderColor": "principal"
+        "informativeBorderColor": "secundaria"
       }
     },
     "Plugins": {
@@ -150,15 +150,15 @@
       },
       "lightSelectionBackground": "borda",
       "Button": {
-        "installBorderColor": "principal",
+        "installBorderColor": "secundaria",
         "installForeground": "principal",
         "installBackground": "fundoprincipal",
         "installFillForeground": "textoPrincipal",
-        "installFillBackground": "principal",
+        "installFillBackground": "secundaria",
         "installFocusedBackground": "cinzaMedioPedra",
-        "updateBorderColor": "principal",
+        "updateBorderColor": "secundaria",
         "updateForeground": "textoPrincipal",
-        "updateBackground": "principal"
+        "updateBackground": "secundaria"
       },
       "Tab": {
         "selectedBackground": "cinzaMedioPedra",
@@ -170,7 +170,7 @@
       "failedColor": "vermelhoSangueEscuro",
       "failedEndColor": "vermelhoSangueEscuro",
       "trackColor": "vermelhoSangue",
-      "progressColor": "principal",
+      "progressColor": "secundaria",
       "indeterminateStartColor": "secundaria",
       "indeterminateEndColor": "secundaria",
       "passedColor": "principal",
@@ -192,19 +192,19 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "principal",
-      "endBackground": "principal"
+      "startBackground": "selecaoPrincipal",
+      "endBackground": "selecaoPrincipal"
     },
     "Separator.separatorColor": "cinzaMedioPedra",
     "TabbedPane": {
       "tabSelectionHeight": 2,
-      "focusColor": "principal",
+      "focusColor": "secundaria",
       "hoverColor": "secundaria",
-      "underlineColor": "principal",
+      "underlineColor": "secundaria",
       "contentAreaColor": "fundoprincipal"
     },
     "ToggleButton": {
-      "onBackground": "principal",
+      "onBackground": "secundaria",
       "onForeground": "textoPrincipal",
       "offBackground": "borda",
       "offForeground": "textoPrincipal",
@@ -219,14 +219,14 @@
         "inactiveBackground": "fundoprincipal"
       },
       "HeaderTab": {
-        "underlineColor": "principal",
+        "underlineColor": "secundaria",
         "underlineHeight": 2,
         "underlinedTabBackground": "fundoprincipal",
         "underlinedTabInactiveBackground": "cinzaMedioPedra"
       }
     },
     "Tree": {
-      "modifiedItemForeground": "principal",
+      "modifiedItemForeground": "secundaria",
       "selectionBackground": "selecaoPrincipal",
       "selectionInactiveBackground": "cinzaMedioPedra"
     },
@@ -246,7 +246,7 @@
         "headIconColor": "ouroEscuro",
         "localBranchIconColor": "verdeEmpoeirado",
         "remoteBranchIconColor": "marromCouro",
-        "tagIconColor": "principal",
+        "tagIconColor": "secundaria",
         "otherIconColor": "azulSuave"
       },
       "Log": {
