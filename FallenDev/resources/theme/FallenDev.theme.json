@@ -4,26 +4,26 @@
   "dark": true,
   "editorScheme": "fallenDev.xml",
   "colors": {
-    "verdeTumulo": "#516251",
-    "ouroVelho": "#A67D3D",
-    "prata": "#C0C0C0",
-    "cinzaEscuro": "#2a2c31",
-    "cinzaMedioPedra": "#404040",
-    "preto": "#000000",
-    "marromEscuroTerroso": "#4B3A26",
-    "marromCouro": "#6F5A40",
-    "ouroEscuro": "#B8860B",
-    "vermelhoSangue": "#7B0000",
-    "vermelhoSangueEscuro": "#400303",
-    "verdeMusgoSilenciado": "#4F5C4F",
-    "verdeEmpoeirado": "#707A6C",
-    "azulSuave": "#506070",
+    "verdeTumulo": "#4F5B45",
+    "ouroVelho": "#B8A873",
+    "prata": "#C7BDA4",
+    "cinzaEscuro": "#26231F",
+    "cinzaMedioPedra": "#3A342D",
+    "preto": "#1B1815",
+    "marromEscuroTerroso": "#47362C",
+    "marromCouro": "#6C5844",
+    "ouroEscuro": "#9F8350",
+    "vermelhoSangue": "#A34732",
+    "vermelhoSangueEscuro": "#5A231B",
+    "verdeMusgoSilenciado": "#5C634A",
+    "verdeEmpoeirado": "#7C765F",
+    "azulSuave": "#6A7078",
     "actionsBlue": "#29617c",
-    "actionsGreen": "#3a7460",
-    "actionsGreyInline": "#A9A9A9",
-    "objectsGreenAndroid": "#5EA93C",
-    "objectsPink": "#9a6792",
-    "objectsPurple": "#674B7C"
+    "actionsGreen": "#55644D",
+    "actionsGreyInline": "#8F877A",
+    "objectsGreenAndroid": "#6A7657",
+    "objectsPink": "#A67C71",
+    "objectsPurple": "#6B625C"
   },
   "ui": {
     "*": {
@@ -40,37 +40,37 @@
       "ContrastBorderColor": "cinzaMedioPedra"
     },
     "ActionButton": {
-      "hoverBackground": "verdeTumulo",
+      "hoverBackground": "cinzaMedioPedra",
       "hoverBorderColor": "cinzaMedioPedra",
       "pressedBackground": "ouroVelho",
       "pressedBorderColor": "cinzaMedioPedra"
     },
     "Button": {
       "foreground": "prata",
-      "startBorderColor": "verdeTumulo",
-      "endBorderColor": "verdeTumulo",
-      "startBackground": "verdeTumulo",
-      "endBackground": "verdeTumulo",
-      "focusedBorderColor": "verdeTumulo",
+      "startBorderColor": "ouroEscuro",
+      "endBorderColor": "ouroEscuro",
+      "startBackground": "marromCouro",
+      "endBackground": "marromCouro",
+      "focusedBorderColor": "ouroVelho",
       "default": {
         "foreground": "prata",
-        "startBackground": "verdeTumulo",
-        "endBackground": "verdeTumulo",
-        "startBorderColor": "verdeTumulo",
-        "endBorderColor": "verdeTumulo",
-        "focusColor": "verdeTumulo",
-        "focusedBorderColor": "verdeTumulo"
+        "startBackground": "marromCouro",
+        "endBackground": "marromCouro",
+        "startBorderColor": "ouroEscuro",
+        "endBorderColor": "ouroEscuro",
+        "focusColor": "ouroVelho",
+        "focusedBorderColor": "ouroVelho"
       }
     },
     "Counter": {
       "foreground": "prata",
-      "background": "verdeTumulo"
+      "background": "marromCouro"
     },
     "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "verdeTumulo"
+      "acceleratorSelectionForeground": "ouroVelho"
     },
     "ComboBox": {
-      "modifiedItemForeground": "verdeTumulo",
+      "modifiedItemForeground": "ouroVelho",
       "ArrowButton": {
         "background": "cinzaEscuro",
         "nonEditableBackground": "preto",
@@ -80,14 +80,14 @@
       "nonEditableBackground": "cinzaMedioPedra"
     },
     "CompletionPopup": {
-      "selectionBackground": "verdeTumulo",
+      "selectionBackground": "marromCouro",
       "selectionInactiveBackground": "cinzaMedioPedra",
       "matchForeground": "prata"
     },
     "Component": {
-      "focusColor": "verdeTumulo",
-      "borderColor": "verdeTumulo",
-      "focusedBorderColor": "verdeTumulo",
+      "focusColor": "ouroVelho",
+      "borderColor": "ouroEscuro",
+      "focusedBorderColor": "ouroVelho",
       "errorFocusColor": "vermelhoSangue",
       "inactiveErrorFocusColor": "vermelhoSangueEscuro",
       "warningFocusColor": "ouroEscuro",
@@ -98,13 +98,13 @@
     },
     "Editor": {
       "background": "cinzaEscuro",
-      "shortcutForeground": "verdeTumulo"
+      "shortcutForeground": "ouroVelho"
     },
     "EditorTabs": {
       "background": "cinzaEscuro",
       "underlinedTabBackground": "cinzaMedioPedra",
-      "underlineColor": "verdeMusgoSilenciado",
-      "underlineHeight": 5
+      "underlineColor": "ouroVelho",
+      "underlineHeight": 3
     },
     "FileColor": {
       "Blue": "#0B0D0F",
@@ -150,15 +150,15 @@
       },
       "lightSelectionBackground": "preto",
       "Button": {
-        "installBorderColor": "verdeTumulo",
-        "installForeground": "verdeTumulo",
+        "installBorderColor": "ouroEscuro",
+        "installForeground": "ouroVelho",
         "installBackground": "cinzaEscuro",
         "installFillForeground": "prata",
-        "installFillBackground": "verdeTumulo",
+        "installFillBackground": "marromCouro",
         "installFocusedBackground": "cinzaMedioPedra",
-        "updateBorderColor": "verdeTumulo",
+        "updateBorderColor": "ouroEscuro",
         "updateForeground": "prata",
-        "updateBackground": "verdeTumulo"
+        "updateBackground": "marromCouro"
       },
       "Tab": {
         "selectedBackground": "cinzaMedioPedra",
@@ -171,10 +171,10 @@
       "failedEndColor": "vermelhoSangueEscuro",
       "trackColor": "vermelhoSangue",
       "progressColor": "vermelhoSangue",
-      "indeterminateStartColor": "marromEscuroTerroso",
-      "indeterminateEndColor": "marromEscuroTerroso",
-      "passedColor": "verdeTumulo",
-      "passedEndColor": "verdeTumulo"
+      "indeterminateStartColor": "ouroEscuro",
+      "indeterminateEndColor": "ouroEscuro",
+      "passedColor": "ouroVelho",
+      "passedEndColor": "ouroVelho"
     },
     "Popup": {
       "Header": {
@@ -192,23 +192,23 @@
       }
     },
     "SearchMatch": {
-      "startBackground": "verdeTumulo",
-      "endBackground": "verdeTumulo"
+      "startBackground": "marromCouro",
+      "endBackground": "marromCouro"
     },
     "Separator.separatorColor": "cinzaMedioPedra",
     "TabbedPane": {
       "tabSelectionHeight": 2,
-      "focusColor": "verdeTumulo",
+      "focusColor": "ouroVelho",
       "hoverColor": "ouroVelho",
-      "underlineColor": "verdeTumulo",
+      "underlineColor": "ouroVelho",
       "contentAreaColor": "cinzaEscuro"
     },
     "ToggleButton": {
-      "onBackground": "verdeTumulo",
+      "onBackground": "marromCouro",
       "onForeground": "prata",
       "offBackground": "preto",
       "offForeground": "prata",
-      "buttonColor": "verdeTumulo"
+      "buttonColor": "ouroEscuro"
     },
     "ToolWindow": {
       "Button": {
@@ -219,14 +219,14 @@
         "inactiveBackground": "cinzaEscuro"
       },
       "HeaderTab": {
-        "underlineColor": "verdeTumulo",
+        "underlineColor": "ouroVelho",
         "underlineHeight": 2,
         "underlinedTabBackground": "cinzaEscuro",
         "underlinedTabInactiveBackground": "cinzaMedioPedra"
       }
     },
     "Tree": {
-      "modifiedItemForeground": "verdeTumulo",
+      "modifiedItemForeground": "ouroVelho",
       "selectionBackground": "marromEscuroTerroso",
       "selectionInactiveBackground": "cinzaMedioPedra"
     },
@@ -244,9 +244,9 @@
       },
       "GitLog": {
         "headIconColor": "ouroEscuro",
-        "localBranchIconColor": "verdeEmpoeirado",
+        "localBranchIconColor": "verdeMusgoSilenciado",
         "remoteBranchIconColor": "marromCouro",
-        "tagIconColor": "verdeTumulo",
+        "tagIconColor": "ouroVelho",
         "otherIconColor": "azulSuave"
       },
       "Log": {
@@ -279,18 +279,18 @@
       "Objects.Grey": "prata",
       "Objects.Pink": "objectsPink",
       "Objects.Purple": "objectsPurple",
-      "Objects.Red": "verdeTumulo",
-      "Objects.RedStatus": "verdeTumulo",
+      "Objects.Red": "vermelhoSangue",
+      "Objects.RedStatus": "vermelhoSangue",
       "Objects.Yellow": "ouroEscuro",
       "Objects.YellowDark": "ouroEscuro",
       "Objects.BlackText": "preto",
       "Checkbox.Border.Default.Dark": "cinzaMedioPedra",
       "Checkbox.Border.Selected.Dark": "cinzaMedioPedra",
       "Checkbox.Background.Default.Dark": "preto",
-      "Checkbox.Foreground.Selected.Dark": "verdeTumulo",
-      "Checkbox.Focus.Wide.Dark": "verdeTumulo",
-      "Checkbox.Focus.Thin.Selected.Dark": "verdeTumulo",
-      "Checkbox.Focus.Thin.Default.Dark": "verdeTumulo"
+      "Checkbox.Foreground.Selected.Dark": "ouroVelho",
+      "Checkbox.Focus.Wide.Dark": "ouroVelho",
+      "Checkbox.Focus.Thin.Selected.Dark": "ouroVelho",
+      "Checkbox.Focus.Thin.Default.Dark": "ouroVelho"
     }
   }
 }
