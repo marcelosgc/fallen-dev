@@ -4,68 +4,68 @@
   "dark": false,
   "editorScheme": "fallenDevSanctum.xml",
   "colors": {
-    "white1": "#c5c3cb",
-    "white2": "#8a8696",
-    "text": "#2b2b2c",
-    "bg1": "#e8e7ea",
-    "bg2": "#524e59",
-    "bgSelection": "#b6b4be",
-    "warning": "#c1a875",
-    "error": "#801f2d",
-    "errorBorder": "#ca3147",
+    "white1": "#e7e5e5",
+    "white2": "#b8aea2",
+    "text": "#2f2926",
+    "bg1": "#f5f4f3",
+    "bg2": "#5a4a43",
+    "bgSelection": "#d8c2c7",
+    "warning": "#b28a4a",
+    "error": "#8e2f3f",
+    "errorBorder": "#b9414b",
     "hoverLink": "#922b3f",
     "visitedLink": "#d16579",
-    "stopButton": "#b9414b",
+    "stopButton": "#a73b44",
     "debugButton": "#3a7460",
-    "fileOrange": "#dec2b4",
-    "fileYellow": "#ded0b4",
-    "fileGreen": "#87c3ae",
-    "fileBlue": "#71b1d0",
-    "fileRose": "#d2bcd5",
-    "fileViolet": "#b3a8d3",
-    "fileGrey": "#efedf0",
-    "objectBlue": "#29617c",
+    "fileOrange": "#d8beae",
+    "fileYellow": "#d8c8ab",
+    "fileGreen": "#99b59f",
+    "fileBlue": "#9eb4be",
+    "fileRose": "#d0b2b6",
+    "fileViolet": "#b7abc0",
+    "fileGrey": "#f6f5f4",
+    "objectBlue": "#6f4b43",
     "objectGreen": "#3a7460",
     "objectGreenAndroid": "#3a7445",
-    "objectGrey": "#efedf0",
-    "objectGreyInlineDark": "#8b7d93",
-    "objectPink": "#d2bcd5",
-    "objectPurple": "#7a5f96",
-    "objectRed": "#b9414b",
-    "objectRedStatus": "#b9414b",
-    "objectYellow": "#c1a875",
-    "objectYellowDark": "#b5975a",
-    "objectBlackText": "#2b2b2c"
+    "objectGrey": "#6f6761",
+    "objectGreyInlineDark": "#817972",
+    "objectPink": "#d0b2b6",
+    "objectPurple": "#8c6d73",
+    "objectRed": "#8e2f3f",
+    "objectRedStatus": "#8e2f3f",
+    "objectYellow": "#b28a4a",
+    "objectYellowDark": "#9a7639",
+    "objectBlackText": "#2f2926"
   },
   "ui": {
     "*": {
       "arc": "8",
       "background": "bg1",
       "selectionBackground": "bgSelection",
-      "selectionInactiveBackground": "white1",
-      "inactiveBackground": "white2",
+      "selectionInactiveBackground": "#ece9e8",
+      "inactiveBackground": "#dfdbd8",
       "borderColor": "white1",
-      "underlineColor": "white2"
+      "underlineColor": "objectYellow"
     },
     "Borders": {
       "color": "white1",
-      "ContrastBorderColor": "white2"
+      "ContrastBorderColor": "#cbc7c5"
     },
     "Editor": {
       "background": "bg1",
-      "shortcutForeground": "white1"
+      "shortcutForeground": "objectRed"
     },
     "EditorTabs": {
       "background": "bg1",
-      "underlinedTabBackground": "white1",
-      "underlineColor": "objectRed",
+      "underlinedTabBackground": "#ece9e8",
+      "underlineColor": "objectYellow",
       "underlineHeight": 5
     },
     "RunToolbar.Debug.activeBackground": "debugButton",
     "RunWidget": {
       "foreground": "text",
-      "hoverBackground": "white2",
-      "iconColor": "objectRed",
+      "hoverBackground": "#dfdbd8",
+      "iconColor": "objectYellowDark",
       "runIconColor": "objectRed"
 
     },
@@ -76,24 +76,24 @@
       "pressedBorderColor": "white1"
     },
     "Button": {
-      "foreground": "bg1",
-      "startBorderColor": "bg1",
-      "endBorderColor": "bg1",
+      "foreground": "white1",
+      "startBorderColor": "objectYellowDark",
+      "endBorderColor": "objectYellowDark",
       "startBackground": "objectRed",
       "endBackground": "objectRed",
-      "focusedBorderColor": "bg1",
+      "focusedBorderColor": "objectYellow",
       "default": {
-        "foreground": "bg1",
+        "foreground": "white1",
         "startBackground": "objectRed",
         "endBackground": "objectRed",
-        "startBorderColor": "bg1",
-        "endBorderColor": "bg1",
+        "startBorderColor": "objectYellowDark",
+        "endBorderColor": "objectYellowDark",
         "focusColor": "objectRed",
-        "focusedBorderColor": "bg1"
+        "focusedBorderColor": "objectYellow"
       }
     },
     "Counter": {
-      "foreground": "bg1",
+      "foreground": "white1",
       "background": "objectRed"
     },
     "CheckBoxMenuItem": {
@@ -106,18 +106,18 @@
         "nonEditableBackground": "bg2",
         "iconColor": "objectGrey"
       },
-      "selectionBackground": "objectGrey",
-      "nonEditableBackground": "objectGrey"
+      "selectionBackground": "#e8ddd1",
+      "nonEditableBackground": "#f0eeee"
     },
     "CompletionPopup": {
-      "selectionBackground": "white1",
-      "selectionInactiveBackground": "white1",
+      "selectionBackground": "#e8ddd1",
+      "selectionInactiveBackground": "#ece9e8",
       "matchForeground": "text"
     },
     "Component": {
       "focusColor": "objectRed",
-      "borderColor": "white2",
-      "focusedBorderColor": "white1",
+      "borderColor": "#cbc7c5",
+      "focusedBorderColor": "objectYellow",
       "errorFocusColor": "error",
       "inactiveErrorFocusColor": "error",
       "warningFocusColor": "warning",
@@ -140,7 +140,7 @@
       "errorForeground": "error"
     },
     "Link": {
-      "activeForeground": "text",
+      "activeForeground": "objectYellowDark",
       "hoverForeground": "hoverLink",
       "visitedForeground": "visitedLink",
       "pressedForeground": "white1"
@@ -150,8 +150,8 @@
       "errorBorderColor": "errorBorder",
       "errorBackground": "bg1",
       "errorForeground": "error",
-      "background": "bg1",
-      "linkForeground": "objectRed",
+      "background": "#f8f7f6",
+      "linkForeground": "objectYellowDark",
       "ToolWindow": {
         "warningForeground": "text",
         "warningBackground": "bg1",
@@ -166,26 +166,26 @@
     },
     "Plugins": {
       "SearchField": {
-        "background": "bgDeep"
+        "background": "#f8f7f6"
       },
       "SectionHeader": {
-        "foreground": "objectGrey"
+        "foreground": "text"
       },
       "Button": {
         "installBorderColor": "objectRed",
-        "installForeground": "objectGrey",
+        "installForeground": "white1",
         "installBackground": "objectRed",
-        "installFillForeground": "objectGrey",
+        "installFillForeground": "white1",
         "installFillBackground": "objectRed",
-        "installFocusedBackground": "objectGrey",
+        "installFocusedBackground": "#e7e5e5",
         "updateBorderColor": "objectRed",
-        "updateForeground": "objectGrey",
+        "updateForeground": "white1",
         "updateBackground": "objectRed"
       },
       "Tab": {
-        "selectedBackground": "brdrBlind",
-        "selectedForeground": "txtSteel",
-        "hoverBackground": "bgDeep"
+        "selectedBackground": "#e7e5e5",
+        "selectedForeground": "text",
+        "hoverBackground": "#f8f7f6"
       }
     },
     "ProgressBar": {
@@ -195,8 +195,8 @@
       "progressColor": "#822e35",
       "indeterminateStartColor": "#6d262c",
       "indeterminateEndColor": "#6d262c",
-      "passedColor": "white1",
-      "passedEndColor": "white1"
+      "passedColor": "objectYellowDark",
+      "passedEndColor": "objectYellowDark"
     },
     "Popup": {
       "Header": {
@@ -210,43 +210,44 @@
         "background": "bg1"
       },
       "Tab": {
-        "selectedBackground": "white1",
+      "selectedBackground": "#e7e5e5",
         "selectedForeground": "text"
       }
     },
     "SearchMatch": {
-      "startBackground": "white1",
-      "endBackground": "white1"
+      "startBackground": "#e7e5e5",
+      "endBackground": "#e7e5e5"
     },
     "Separator.separatorColor": "white1",
     "TabbedPane": {
       "tabSelectionHeight": 2,
-      "focusColor": "white1",
-      "hoverColor": "white2",
-      "underlineColor": "white1",
+      "focusColor": "objectYellowDark",
+      "hoverColor": "objectYellowDark",
+      "underlineColor": "objectYellowDark",
       "contentAreaColor": "bg1"
     },
     "ToggleButton": {
-      "onBackground": "white2",
+      "onBackground": "objectYellow",
       "onForeground": "text",
       "offBackground": "bg2",
       "offForeground": "text",
-      "buttonColor": "white2"
+      "buttonColor": "objectYellowDark"
     },
     "ToolWindow": {
+      "background": "bg1",
       "Button": {
-        "hoverBackground": "white1",
+        "hoverBackground": "#e7e5e5",
         "selectedBackground": "bgSelection"
       },
       "Header": {
-        "background": "white1",
+        "background": "#ece9e8",
         "inactiveBackground": "bg1"
       },
       "HeaderTab": {
-        "underlineColor": "white1",
+        "underlineColor": "objectYellowDark",
         "underlineHeight": 2,
         "underlinedTabBackground": "bg1",
-        "underlinedTabInactiveBackground": "white1"
+        "underlinedTabInactiveBackground": "#ece9e8"
       }
     },
     "ValidationTooltip": {
@@ -262,7 +263,7 @@
         }
       },
       "GitLog": {
-        "headIconColor": "objectYellow",
+        "headIconColor": "objectYellowDark",
         "localBranchIconColor": "objectGreen",
         "remoteBranchIconColor": "objectPurple",
         "tagIconColor": "white1",
@@ -279,8 +280,8 @@
       "Projects": {
         "background": "bg1",
         "selectionBackground": "bg2",
-        "selectionInactiveBackground": "white1",
-        "actions.background": "white1",
+        "selectionInactiveBackground": "#ece9e8",
+        "actions.background": "#ece9e8",
         "actions.selectionBorderColor": "bgSelection"
       }
     }
@@ -289,15 +290,15 @@
     "ColorPalette": {
       "Actions.Blue": "objectBlue",
       "Actions.Green": "objectGreen",
-      "Actions.Grey": "objectGrey",
+      "Actions.Grey": "objectGreyInlineDark",
       "Actions.GreyInline.Dark": "objectGreyInlineDark",
-      "Actions.GreyInline": "objectGrey",
+      "Actions.GreyInline": "objectGreyInlineDark",
       "Actions.Red": "objectRed",
       "Actions.Yellow": "objectYellow",
       "Objects.Blue": "objectBlue",
       "Objects.Green": "objectGreen",
       "Objects.GreenAndroid": "objectGreenAndroid",
-      "Objects.Grey": "objectGrey",
+      "Objects.Grey": "objectGreyInlineDark",
       "Objects.Pink": "objectPink",
       "Objects.Purple": "objectPurple",
       "Objects.Red": "objectRed",
