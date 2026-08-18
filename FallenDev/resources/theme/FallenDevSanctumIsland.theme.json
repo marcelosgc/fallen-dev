@@ -70,7 +70,7 @@
       "selectionBackground": "bgSelection",
       "selectionForeground": "text",
       "selectionInactiveBackground": "#ece9e8",
-      "selectionBackgroundInactive": "objectYellowDark",
+      "selectionBackgroundInactive": "#ece9e8",
       "lightSelectionBackground": "bg1",
       "lightSelectionForeground": "text",
       "lightSelectionInactiveBackground": "bgSelection",
@@ -85,8 +85,8 @@
       "errorForeground": "error",
       "borderColor": "white1",
       "disabledBorderColor": "white1",
-      "focusColor": "objectYellowDark",
-      "focusedBorderColor": "objectYellowDark",
+      "focusColor": "objectYellow",
+      "focusedBorderColor": "objectYellow",
       "separatorForeground": "white1",
       "separatorColor": "white1",
       "lineSeparatorColor": "white1",
@@ -134,11 +134,11 @@
       "startBackground": "objectRed",
       "endBackground": "objectRed",
       "focusedBorderColor": "objectYellow",
-      "installForeground": "objectRed",
+      "installForeground": "white1",
       "installBorderColor": "objectRed",
-      "installFillForeground": "text",
+      "installFillForeground": "white1",
       "installFillBackground": "objectRed",
-      "updateForeground": "text",
+      "updateForeground": "white1",
       "updateBackground": "objectRed",
       "updateBorderColor": "objectRed",
       "default": {
@@ -153,6 +153,10 @@
       }
     },
     "ComboBox": {
+      "background": "bg1",
+      "foreground": "text",
+      "selectionForeground": "text",
+      "disabledForeground": "objectGrey",
       "modifiedItemForeground": "objectRed",
       "ArrowButton": {
         "background": "bg2",
@@ -282,7 +286,7 @@
       "SectionHeader": {
         "foreground": "text"
       },
-      "lightSelectionBackground": "#22212C",
+      "lightSelectionBackground": "#e7e5e5",
       "Button": {
         "installBorderColor": "objectRed",
         "installForeground": "white1",
@@ -423,7 +427,7 @@
       "background": "bg1",
       "foreground": "text",
       "modifiedItemForeground": "objectRed",
-      "selectionBackground": "#3d232b",
+      "selectionBackground": "bgSelection",
       "selectionInactiveBackground": "white1"
     },
     "ValidationTooltip": {
@@ -435,7 +439,7 @@
     "VersionControl": {
       "FileHistory": {
         "Commit": {
-          "selectedBranchBackground": "#22212C"
+          "selectedBranchBackground": "#e7e5e5"
         }
       },
       "GitLog": {
