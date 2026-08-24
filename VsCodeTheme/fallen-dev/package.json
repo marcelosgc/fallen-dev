@@ -3,7 +3,7 @@
   "displayName": "fallen-dev",
   "repository": "https://github.com/marcelosgc/fallen-dev",
   "description": "",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "publisher": "MarceloCarvalho",  
   "icon": "./FallenDev.png",
   "engines": {
@@ -17,7 +17,7 @@
       {
         "label": "Fallen Dev",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fallen Dev-color-theme.json"
+        "path": "./themes/fallendev-color-theme.json"
       }
     ]
   }
