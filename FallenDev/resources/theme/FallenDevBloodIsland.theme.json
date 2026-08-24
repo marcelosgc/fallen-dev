@@ -1,8 +1,8 @@
 {
-  "name": "Fallen Dev - Blood",
+  "name": "Fallen Dev - Blood Island",
   "author": "Marcelo Carvalho",
   "dark": true,
-  "editorScheme": "fallenDevBlood.xml",
+  "editorScheme": "fallenDevBloodIsland.xml",
   "colors": {
     "bloodRed": "#a73b44",
     "othersBlood": "#b9414b",
@@ -11,37 +11,109 @@
     "brdrBlind": "#2a2c33",
     "deadBg": "#151320",
     "stainedBgSelection": "#4a2730",
-    "lastHopewarning": "#e0c080"
+    "lastHopewarning": "#e0c080",
+    "bg": "#1e1f24",
+    "bg2": "#2a2c33",
+    "second": "#2a2c33",
+    "fg": "#d6d7d9",
+    "secondFg": "#8c8f94",
+    "selBg": "#4a2730",
+    "selFg": "#d6d7d9",
+    "border": "#2a2c33",
+    "dis": "#6f7378",
+    "accent": "#a73b44",
+    "shadow": "#151320",
+    "deepBg": "#1e1f24",
+    "error": "#801f2d",
+    "separator": "#2a2c33",
+    "highlightFg": "#d6d7d9",
+    "runningBg": "#3a7460",
+    "dragAndDropBg": "#cb4f6633",
+    "transparent": "#00000000"
   },
   "ui": {
     "*": {
-      "arc": "8",
-      "background": "bgDeep",
-      "selectionBackground": "stainedBgSelection",
-      "selectionInactiveBackground": "brdrBlind",
+      "arc": 8,
+      "background": "bg",
+      "foreground": "fg",
+      "infoForeground": "fg",
+      "selectionBackground": "selBg",
+      "selectionForeground": "selFg",
+      "selectionInactiveBackground": "border",
+      "selectionBackgroundInactive": "accent",
+      "lightSelectionBackground": "bg",
+      "lightSelectionForeground": "fg",
+      "lightSelectionInactiveBackground": "selBg",
+      "lightSelectionInactiveForeground": "fg",
+      "disabledBackground": "bg",
       "inactiveBackground": "deadBg",
-      "borderColor": "brdrBlind",
-      "underlineColor": "othersBlood"
+      "disabledForeground": "dis",
+      "disabledText": "dis",
+      "inactiveForeground": "dis",
+      "acceleratorForeground": "secondFg",
+      "acceleratorSelectionForeground": "secondFg",
+      "errorForeground": "error",
+      "borderColor": "border",
+      "disabledBorderColor": "border",
+      "focusColor": "accent",
+      "focusedBorderColor": "accent",
+      "separatorForeground": "border",
+      "separatorColor": "border",
+      "lineSeparatorColor": "border",
+      "modifiedItemForeground": "accent",
+      "textBackground": "bg",
+      "textForeground": "fg",
+      "underlineColor": "accent"
     },
+    "Islands": 1,
+    "Island": {
+      "arc": 12,
+      "borderWidth": 5,
+      "inactiveAlpha": 0.35,
+      "inactiveAlphaInStatusBar": 0.35
+    },
+    "Island.borderColor": "transparent",
+    "MainWindow.background": "bg2",
+    "MainToolbar.borderColor": "transparent",
+    "ToolWindow.Stripe.borderColor": "transparent",
+    "ToolWindow.Stripe.background": "bg2",
+    "Editor.SearchField.background": "bg",
+    "Editor.Toolbar.borderColor": "border",
+    "activeCaption": "bg",
+    "activeCaptionBorder": "bg",
+    "activeCaptionText": "fg",
+    "inactiveCaption": "second",
+    "inactiveCaptionBorder": "bg",
+    "inactiveCaptionText": "fg",
     "Borders": {
       "color": "brdrBlind",
       "ContrastBorderColor": "#181a1f"
     },
     "ActionButton": {
       "hoverBackground": "bloodRed",
-      "hoverBorderColor": "brdrBlind",
+      "hoverBorderColor": "transparent",
       "pressedBackground": "othersBlood",
-      "pressedBorderColor": "brdrBlind"
+      "pressedBorderColor": "transparent",
+      "focusedBorderColor": "transparent"
     },
     "Button": {
       "foreground": "txtSteel",
+      "shadowColor": "transparent",
       "startBorderColor": "bloodRed",
       "endBorderColor": "bloodRed",
-      "startBackground": "bloodRed",
-      "endBackground": "bloodRed",
+      "startBackground": "bg",
+      "endBackground": "bg",
       "focusedBorderColor": "bloodRed",
+      "installForeground": "bloodRed",
+      "installBorderColor": "bloodRed",
+      "installFillForeground": "txtSteel",
+      "installFillBackground": "bloodRed",
+      "updateForeground": "txtSteel",
+      "updateBackground": "bloodRed",
+      "updateBorderColor": "bloodRed",
       "default": {
         "foreground": "txtSteel",
+        "shadowColor": "transparent",
         "startBackground": "bloodRed",
         "endBackground": "bloodRed",
         "startBorderColor": "bloodRed",
@@ -49,13 +121,6 @@
         "focusColor": "bloodRed",
         "focusedBorderColor": "bloodRed"
       }
-    },
-    "Counter": {
-      "foreground": "txtSteel",
-      "background": "bloodRed"
-    },
-    "CheckBoxMenuItem": {
-      "acceleratorSelectionForeground": "bloodRed"
     },
     "ComboBox": {
       "modifiedItemForeground": "bloodRed",
@@ -81,17 +146,46 @@
       "warningFocusColor": "lastHopewarning",
       "inactiveWarningFocusColor": "#433210"
     },
+    "Counter": {
+      "foreground": "txtSteel",
+      "background": "bloodRed"
+    },
     "DragAndDrop": {
-      "areaBackground": "#cb4f66"
+      "areaBackground": "#cb4f66",
+      "areaBorderColor": "border",
+      "areaForeground": "fg",
+      "backgroundBorderColor": "border",
+      "backgroundColor": "bg",
+      "borderColor": "accent",
+      "foregroundColor": "fg"
     },
     "Editor": {
       "background": "bgDeep",
+      "foreground": "fg",
       "shortcutForeground": "bloodRed"
     },
     "EditorTabs": {
-      "background": "bgDeep",
-      "underlinedTabBackground": "brdrBlind",
+      "background": "bg",
+      "borderColor": "border",
+      "foreground": "fg",
+      "active.background": "selBg",
+      "active.foreground": "fg",
+      "active.underlineColor": "accent",
+      "hoverBackground": "second",
+      "hoverInactiveBackground": "second",
+      "hoverColor": "selBg",
+      "hoverMaskColor": "selBg",
+      "inactive.maskColor": "bg",
+      "inactiveMaskColor": "bg",
+      "inactiveColoredFileBackground": "bg2",
+      "underTabsBorderColor": "border",
       "underlineColor": "bloodRed",
+      "inactiveUnderlineColor": "accent",
+      "underlinedTabBackground": "brdrBlind",
+      "underlinedBorderColor": "accent",
+      "inactiveUnderlinedTabBorderColor": "border",
+      "inactiveUnderlinedTabBackground": "second",
+      "underlinedTabForeground": "highlightFg",
       "underlineHeight": 2
     },
     "FileColor": {
@@ -104,7 +198,8 @@
     },
     "Label": {
       "foreground": "txtSteel",
-      "errorForeground": "#801f2d"
+      "errorForeground": "#801f2d",
+      "infoForeground": "secondFg"
     },
     "Link": {
       "activeForeground": "othersBlood",
@@ -112,7 +207,25 @@
       "visitedForeground": "#d16579",
       "pressedForeground": "bloodRed"
     },
+    "MainToolbar": {
+      "background": "bg2",
+      "hoverBackground": "border",
+      "inactiveBackground": "bg",
+      "pressedBackground": "selBg",
+      "Dropdown.background": "bg",
+      "Dropdown.hoverBackground": "selBg",
+      "Dropdown.pressedBackground": "selBg",
+      "Icon.background": "bg",
+      "Icon.hoverBackground": "selBg",
+      "Icon.pressedBackground": "selBg",
+      "Icon": {
+        "hoverBackground": "selBg",
+        "pressedBackground": "selBg",
+        "insets": "5,5,5,5"
+      }
+    },
     "Notification": {
+      "background": "bg",
       "borderColor": "brdrBlind",
       "errorBorderColor": "#801f2d",
       "errorBackground": "bgDeep",
@@ -130,6 +243,7 @@
       }
     },
     "Plugins": {
+      "background": "bg",
       "SearchField": {
         "background": "bgDeep"
       },
@@ -154,6 +268,17 @@
         "hoverBackground": "bgDeep"
       }
     },
+    "Popup": {
+      "borderColor": "border",
+      "inactiveBorderColor": "border",
+      "Header": {
+        "activeBackground": "bgDeep",
+        "inactiveBackground": "brdrBlind"
+      },
+      "Separator": {
+        "color": "border"
+      }
+    },
     "ProgressBar": {
       "failedColor": "#4b2028",
       "failedEndColor": "#4b2028",
@@ -164,15 +289,21 @@
       "passedColor": "bloodRed",
       "passedEndColor": "bloodRed"
     },
-    "Popup": {
-      "Header": {
-        "activeBackground": "bgDeep",
-        "inactiveBackground": "brdrBlind"
-      }
+    "RunWidget": {
+      "background": "second",
+      "runningBackground": "runningBg",
+      "foreground": "fg",
+      "iconColor": "fg",
+      "separatorColor": "border"
     },
     "SearchEverywhere": {
+      "background": "bg",
+      "foreground": "fg",
       "SearchField": {
-        "background": "bgDeep"
+        "background": "bgDeep",
+        "borderColor": "border",
+        "grayForeground": "dis",
+        "infoForeground": "dis"
       },
       "Tab": {
         "selectedBackground": "brdrBlind",
@@ -184,12 +315,40 @@
       "endBackground": "stainedBgSelection"
     },
     "Separator.separatorColor": "brdrBlind",
+    "StatusBar": {
+      "background": "bg2",
+      "borderColor": "transparent",
+      "bottomColor": "bg",
+      "topColor": "bg",
+      "top2Color": "bg",
+      "hoverBackground": "selBg",
+      "LightEditBackground": "selBg",
+      "Breadcrumbs": {
+        "floatingBackground": "bg",
+        "floatingForeground": "fg",
+        "foreground": "fg",
+        "hoverBackground": "selBg",
+        "hoverForeground": "fg",
+        "selectionBackground": "selBg",
+        "selectionForeground": "selFg",
+        "selectionInactiveBackground": "bg",
+        "selectionInactiveForeground": "fg"
+      },
+      "Widget": {
+        "foreground": "fg",
+        "hoverBackground": "selBg",
+        "hoverForeground": "selFg",
+        "pressedBackground": "bg",
+        "pressedForeground": "fg"
+      }
+    },
     "TabbedPane": {
       "tabSelectionHeight": 2,
       "focusColor": "bloodRed",
       "hoverColor": "othersBlood",
       "underlineColor": "bloodRed",
-      "contentAreaColor": "bgDeep"
+      "contentAreaColor": "bgDeep",
+      "selectedColor": "accent"
     },
     "ToggleButton": {
       "onBackground": "bloodRed",
@@ -201,21 +360,33 @@
     "ToolWindow": {
       "background": "bgDeep",
       "Button": {
-        "hoverBackground": "brdrBlind"
+        "hoverBackground": "brdrBlind",
+        "selectedBackground": "selBg",
+        "selectedForeground": "selFg"
       },
       "Header": {
         "background": "brdrBlind",
+        "borderColor": "border",
         "inactiveBackground": "bgDeep"
       },
       "HeaderTab": {
+        "borderColor": "border",
+        "hoverBackground": "second",
+        "hoverInactiveBackground": "second",
+        "selectedBackground": "bg",
+        "selectedInactiveBackground": "bg",
         "underlineColor": "bloodRed",
+        "inactiveUnderlineColor": "accent",
         "underlineHeight": 2,
         "underlinedTabBackground": "bgDeep",
-        "underlinedTabInactiveBackground": "brdrBlind"
+        "underlinedTabForeground": "selFg",
+        "underlinedTabInactiveBackground": "brdrBlind",
+        "underlinedTabInactiveForeground": "selFg"
       }
     },
     "Tree": {
       "background": "bgDeep",
+      "foreground": "fg",
       "modifiedItemForeground": "bloodRed",
       "selectionBackground": "#3d232b",
       "selectionInactiveBackground": "brdrBlind"
@@ -246,6 +417,8 @@
       }
     },
     "WelcomeScreen": {
+      "background": "bg",
+      "borderColor": "border",
       "separatorColor": "brdrBlind",
       "Projects": {
         "background": "bgDeep",
