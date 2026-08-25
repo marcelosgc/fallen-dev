@@ -3,8 +3,8 @@
   "displayName": "fallen-dev",
   "repository": "https://github.com/marcelosgc/fallen-dev",
   "description": "",
-  "version": "0.1.0",
-  "publisher": "MarceloCarvalho",  
+  "version": "1.1.0",
+  "publisher": "MarceloCarvalho",
   "icon": "./FallenDev.png",
   "engines": {
     "vscode": "^1.0.0"
@@ -17,7 +17,22 @@
       {
         "label": "Fallen Dev",
         "uiTheme": "vs-dark",
-        "path": "./themes/Fallen Dev-color-theme.json"
+        "path": "./themes/fallendev-color-theme.json"
+      },
+      {
+        "label": "Fallen Dev - Mournstead",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fallen-dev-mournstead-color-theme.json"
+      },
+      {
+        "label": "Fallen Dev - Sanctum",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fallen-dev-sanctum-color-theme.json"
+      },
+      {
+        "label": "Fallen Dev - Soul",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fallen-dev-soul-color-theme.json"
       }
     ]
   }

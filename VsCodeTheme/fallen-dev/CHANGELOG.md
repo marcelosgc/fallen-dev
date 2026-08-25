@@ -1,9 +1,12 @@
 # Change Log
 
-All notable changes to the "fallen-dev" extension will be documented in this file.
+## New Themes
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Added three new **Fallen Dev** themes:
 
-## [Unreleased]
+* **Fallen Dev - Mournstead** — A dark, earthy theme inspired by aged stone, worn leather, muted moss, and old gold.
+* **Fallen Dev - Soul** — A dark, atmospheric theme featuring deep violet tones, subdued blues, and soft contrasting accents.
+* **Fallen Dev - Sanctum** — A warm light theme with muted crimson, antique gold, and soft neutral tones.
 
-- Initial release
+All three themes include carefully crafted **UI colors, syntax highlighting, and semantic highlighting** for a consistent experience across the editor and VS Code interface.
+
