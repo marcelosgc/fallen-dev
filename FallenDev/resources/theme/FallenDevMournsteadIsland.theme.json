@@ -1,0 +1,482 @@
+{
+  "name": "Fallen Dev - Mournstead Island",
+  "author": "Marcelo Carvalho",
+  "dark": true,
+  "editorScheme": "fallenDevMournsteadIsland.xml",
+  "colors": {
+    "verdeTumulo": "#4F5B45",
+    "ouroVelho": "#B8A873",
+    "prata": "#C7BDA4",
+    "cinzaEscuro": "#26231F",
+    "cinzaMedioPedra": "#3A342D",
+    "preto": "#1B1815",
+    "marromEscuroTerroso": "#47362C",
+    "marromCouro": "#6C5844",
+    "ouroEscuro": "#9F8350",
+    "vermelhoSangue": "#A34732",
+    "vermelhoSangueEscuro": "#5A231B",
+    "verdeMusgoSilenciado": "#5C634A",
+    "verdeEmpoeirado": "#7C765F",
+    "azulSuave": "#6A7078",
+    "actionsBlue": "#29617c",
+    "actionsGreen": "#55644D",
+    "actionsGreyInline": "#8F877A",
+    "objectsGreenAndroid": "#6A7657",
+    "objectsPink": "#A67C71",
+    "objectsPurple": "#6B625C",
+    "bloodRed": "#6C5844",
+    "othersBlood": "#B8A873",
+    "txtSteel": "#C7BDA4",
+    "bgDeep": "#26231F",
+    "brdrBlind": "#3A342D",
+    "deadBg": "#1B1815",
+    "stainedBgSelection": "#47362C",
+    "lastHopewarning": "#9F8350",
+    "bg": "#26231F",
+    "bg2": "#3A342D",
+    "second": "#3A342D",
+    "fg": "#C7BDA4",
+    "secondFg": "#7C765F",
+    "selBg": "#47362C",
+    "selFg": "#C7BDA4",
+    "border": "#3A342D",
+    "dis": "#7C765F",
+    "accent": "#B8A873",
+    "shadow": "#1B1815",
+    "deepBg": "#26231F",
+    "error": "#A34732",
+    "separator": "#3A342D",
+    "highlightFg": "#C7BDA4",
+    "runningBg": "#4F5B45",
+    "dragAndDropBg": "#cb4f6633",
+    "transparent": "#00000000"
+  },
+  "ui": {
+    "*": {
+      "arc": "6",
+      "background": "cinzaEscuro",
+      "foreground": "prata",
+      "infoForeground": "prata",
+      "selectionBackground": "marromEscuroTerroso",
+      "selectionForeground": "prata",
+      "selectionInactiveBackground": "cinzaMedioPedra",
+      "selectionBackgroundInactive": "ouroVelho",
+      "lightSelectionBackground": "cinzaEscuro",
+      "lightSelectionForeground": "prata",
+      "lightSelectionInactiveBackground": "marromEscuroTerroso",
+      "lightSelectionInactiveForeground": "prata",
+      "disabledBackground": "cinzaEscuro",
+      "inactiveBackground": "preto",
+      "disabledForeground": "verdeEmpoeirado",
+      "disabledText": "verdeEmpoeirado",
+      "inactiveForeground": "verdeEmpoeirado",
+      "acceleratorForeground": "verdeEmpoeirado",
+      "acceleratorSelectionForeground": "verdeEmpoeirado",
+      "errorForeground": "vermelhoSangue",
+      "borderColor": "cinzaMedioPedra",
+      "disabledBorderColor": "cinzaMedioPedra",
+      "focusColor": "ouroVelho",
+      "focusedBorderColor": "ouroVelho",
+      "separatorForeground": "cinzaMedioPedra",
+      "separatorColor": "cinzaMedioPedra",
+      "lineSeparatorColor": "cinzaMedioPedra",
+      "modifiedItemForeground": "ouroVelho",
+      "textBackground": "cinzaEscuro",
+      "textForeground": "prata",
+      "underlineColor": "ouroVelho"
+    },
+    "Islands": 1,
+    "Island": {
+      "arc": 12,
+      "borderWidth": 5,
+      "inactiveAlpha": 0.35,
+      "inactiveAlphaInStatusBar": 0.35
+    },
+    "Island.borderColor": "#00000000",
+    "MainWindow.background": "cinzaMedioPedra",
+    "MainToolbar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "ToolWindow.Stripe.background": "cinzaMedioPedra",
+    "Editor.SearchField.background": "cinzaEscuro",
+    "Editor.Toolbar.borderColor": "cinzaMedioPedra",
+    "activeCaption": "cinzaEscuro",
+    "activeCaptionBorder": "cinzaEscuro",
+    "activeCaptionText": "prata",
+    "inactiveCaption": "cinzaMedioPedra",
+    "inactiveCaptionBorder": "cinzaEscuro",
+    "inactiveCaptionText": "prata",
+    "Borders": {
+      "color": "cinzaMedioPedra",
+      "ContrastBorderColor": "cinzaMedioPedra"
+    },
+    "ActionButton": {
+      "hoverBackground": "cinzaMedioPedra",
+      "hoverBorderColor": "cinzaMedioPedra",
+      "pressedBackground": "ouroVelho",
+      "pressedBorderColor": "cinzaMedioPedra",
+      "focusedBorderColor": "#00000000"
+    },
+    "Button": {
+      "foreground": "prata",
+      "shadowColor": "#00000000",
+      "startBorderColor": "ouroEscuro",
+      "endBorderColor": "ouroEscuro",
+      "startBackground": "marromCouro",
+      "endBackground": "marromCouro",
+      "focusedBorderColor": "ouroVelho",
+      "installForeground": "marromCouro",
+      "installBorderColor": "marromCouro",
+      "installFillForeground": "prata",
+      "installFillBackground": "marromCouro",
+      "updateForeground": "prata",
+      "updateBackground": "marromCouro",
+      "updateBorderColor": "marromCouro",
+      "default": {
+        "foreground": "prata",
+        "shadowColor": "#00000000",
+        "startBackground": "marromCouro",
+        "endBackground": "marromCouro",
+        "startBorderColor": "ouroEscuro",
+        "endBorderColor": "ouroEscuro",
+        "focusColor": "ouroVelho",
+        "focusedBorderColor": "ouroVelho"
+      }
+    },
+    "ComboBox": {
+      "modifiedItemForeground": "ouroVelho",
+      "ArrowButton": {
+        "background": "cinzaEscuro",
+        "nonEditableBackground": "preto",
+        "iconColor": "prata"
+      },
+      "selectionBackground": "ouroVelho",
+      "nonEditableBackground": "cinzaMedioPedra"
+    },
+    "CompletionPopup": {
+      "selectionBackground": "marromCouro",
+      "selectionInactiveBackground": "cinzaMedioPedra",
+      "matchForeground": "prata"
+    },
+    "Component": {
+      "focusColor": "ouroVelho",
+      "borderColor": "ouroEscuro",
+      "focusedBorderColor": "ouroVelho",
+      "errorFocusColor": "vermelhoSangue",
+      "inactiveErrorFocusColor": "vermelhoSangueEscuro",
+      "warningFocusColor": "ouroEscuro",
+      "inactiveWarningFocusColor": "#433210"
+    },
+    "Counter": {
+      "foreground": "prata",
+      "background": "marromCouro"
+    },
+    "DragAndDrop": {
+      "areaBackground": "#cb4f66",
+      "areaBorderColor": "cinzaMedioPedra",
+      "areaForeground": "prata",
+      "backgroundBorderColor": "cinzaMedioPedra",
+      "backgroundColor": "cinzaEscuro",
+      "borderColor": "ouroVelho",
+      "foregroundColor": "prata"
+    },
+    "Editor": {
+      "background": "cinzaEscuro",
+      "foreground": "prata",
+      "shortcutForeground": "ouroVelho"
+    },
+    "EditorTabs": {
+      "background": "cinzaEscuro",
+      "borderColor": "cinzaMedioPedra",
+      "foreground": "prata",
+      "active.background": "marromEscuroTerroso",
+      "active.foreground": "prata",
+      "active.underlineColor": "ouroVelho",
+      "hoverBackground": "cinzaMedioPedra",
+      "hoverInactiveBackground": "cinzaMedioPedra",
+      "hoverColor": "marromEscuroTerroso",
+      "hoverMaskColor": "marromEscuroTerroso",
+      "inactive.maskColor": "cinzaEscuro",
+      "inactiveMaskColor": "cinzaEscuro",
+      "inactiveColoredFileBackground": "cinzaMedioPedra",
+      "underTabsBorderColor": "cinzaMedioPedra",
+      "underlineColor": "ouroVelho",
+      "inactiveUnderlineColor": "ouroVelho",
+      "underlinedTabBackground": "cinzaMedioPedra",
+      "underlinedBorderColor": "ouroVelho",
+      "inactiveUnderlinedTabBorderColor": "cinzaMedioPedra",
+      "inactiveUnderlinedTabBackground": "cinzaMedioPedra",
+      "underlinedTabForeground": "prata",
+      "underlineHeight": 3
+    },
+    "FileColor": {
+      "Blue": "#0B0D0F",
+      "Green": "#212C2A",
+      "Orange": "#2C2122",
+      "Yellow": "#2C2A21",
+      "Rose": "#2A212C",
+      "Violet": "#22212C"
+    },
+    "Label": {
+      "foreground": "prata",
+      "errorForeground": "vermelhoSangue",
+      "infoForeground": "verdeEmpoeirado"
+    },
+    "Link": {
+      "activeForeground": "ouroVelho",
+      "hoverForeground": "ouroVelho",
+      "visitedForeground": "cinzaMedioPedra",
+      "pressedForeground": "ouroEscuro"
+    },
+    "MainToolbar": {
+      "background": "cinzaMedioPedra",
+      "hoverBackground": "cinzaMedioPedra",
+      "inactiveBackground": "cinzaEscuro",
+      "pressedBackground": "marromEscuroTerroso",
+      "Dropdown.background": "cinzaEscuro",
+      "Dropdown.hoverBackground": "marromEscuroTerroso",
+      "Dropdown.pressedBackground": "marromEscuroTerroso",
+      "Icon.background": "cinzaEscuro",
+      "Icon.hoverBackground": "marromEscuroTerroso",
+      "Icon.pressedBackground": "marromEscuroTerroso",
+      "Icon": {
+        "hoverBackground": "marromEscuroTerroso",
+        "pressedBackground": "marromEscuroTerroso",
+        "insets": "5,5,5,5"
+      }
+    },
+    "Notification": {
+      "background": "cinzaEscuro",
+      "borderColor": "cinzaMedioPedra",
+      "errorBorderColor": "vermelhoSangue",
+      "errorBackground": "cinzaEscuro",
+      "errorForeground": "prata",
+      "ToolWindow": {
+        "warningForeground": "prata",
+        "warningBackground": "cinzaEscuro",
+        "warningBorderColor": "ouroEscuro",
+        "errorForeground": "prata",
+        "errorBorderColor": "vermelhoSangueEscuro",
+        "errorBackground": "cinzaEscuro",
+        "informativeForeground": "prata",
+        "informativeBackground": "cinzaEscuro",
+        "informativeBorderColor": "verdeTumulo"
+      }
+    },
+    "Plugins": {
+      "background": "cinzaEscuro",
+      "SearchField": {
+        "background": "cinzaEscuro"
+      },
+      "SectionHeader": {
+        "foreground": "prata"
+      },
+      "lightSelectionBackground": "preto",
+      "Button": {
+        "installBorderColor": "ouroEscuro",
+        "installForeground": "ouroVelho",
+        "installBackground": "cinzaEscuro",
+        "installFillForeground": "prata",
+        "installFillBackground": "marromCouro",
+        "installFocusedBackground": "cinzaMedioPedra",
+        "updateBorderColor": "ouroEscuro",
+        "updateForeground": "prata",
+        "updateBackground": "marromCouro"
+      },
+      "Tab": {
+        "selectedBackground": "cinzaMedioPedra",
+        "selectedForeground": "prata",
+        "hoverBackground": "cinzaEscuro"
+      }
+    },
+    "Popup": {
+      "borderColor": "cinzaMedioPedra",
+      "inactiveBorderColor": "cinzaMedioPedra",
+      "Header": {
+        "activeBackground": "cinzaEscuro",
+        "inactiveBackground": "cinzaMedioPedra"
+      },
+      "Separator": {
+        "color": "cinzaMedioPedra"
+      }
+    },
+    "ProgressBar": {
+      "failedColor": "vermelhoSangueEscuro",
+      "failedEndColor": "vermelhoSangueEscuro",
+      "trackColor": "vermelhoSangue",
+      "progressColor": "vermelhoSangue",
+      "indeterminateStartColor": "ouroEscuro",
+      "indeterminateEndColor": "ouroEscuro",
+      "passedColor": "ouroVelho",
+      "passedEndColor": "ouroVelho"
+    },
+    "RunWidget": {
+      "background": "cinzaMedioPedra",
+      "runningBackground": "verdeTumulo",
+      "foreground": "prata",
+      "iconColor": "prata",
+      "separatorColor": "cinzaMedioPedra"
+    },
+    "SearchEverywhere": {
+      "background": "cinzaEscuro",
+      "foreground": "prata",
+      "SearchField": {
+        "background": "cinzaEscuro",
+        "borderColor": "cinzaMedioPedra",
+        "grayForeground": "verdeEmpoeirado",
+        "infoForeground": "verdeEmpoeirado"
+      },
+      "Tab": {
+        "selectedBackground": "cinzaMedioPedra",
+        "selectedForeground": "prata"
+      }
+    },
+    "SearchMatch": {
+      "startBackground": "marromCouro",
+      "endBackground": "marromCouro"
+    },
+    "Separator.separatorColor": "cinzaMedioPedra",
+    "StatusBar": {
+      "background": "cinzaMedioPedra",
+      "borderColor": "#00000000",
+      "bottomColor": "cinzaEscuro",
+      "topColor": "cinzaEscuro",
+      "top2Color": "cinzaEscuro",
+      "hoverBackground": "marromEscuroTerroso",
+      "LightEditBackground": "marromEscuroTerroso",
+      "Breadcrumbs": {
+        "floatingBackground": "cinzaEscuro",
+        "floatingForeground": "prata",
+        "foreground": "prata",
+        "hoverBackground": "marromEscuroTerroso",
+        "hoverForeground": "prata",
+        "selectionBackground": "marromEscuroTerroso",
+        "selectionForeground": "prata",
+        "selectionInactiveBackground": "cinzaEscuro",
+        "selectionInactiveForeground": "prata"
+      },
+      "Widget": {
+        "foreground": "prata",
+        "hoverBackground": "marromEscuroTerroso",
+        "hoverForeground": "prata",
+        "pressedBackground": "cinzaEscuro",
+        "pressedForeground": "prata"
+      }
+    },
+    "TabbedPane": {
+      "tabSelectionHeight": 2,
+      "focusColor": "ouroVelho",
+      "hoverColor": "ouroVelho",
+      "underlineColor": "ouroVelho",
+      "contentAreaColor": "cinzaEscuro",
+      "selectedColor": "ouroVelho"
+    },
+    "ToggleButton": {
+      "onBackground": "marromCouro",
+      "onForeground": "prata",
+      "offBackground": "preto",
+      "offForeground": "prata",
+      "buttonColor": "ouroEscuro"
+    },
+    "ToolWindow": {
+      "background": "cinzaEscuro",
+      "Button": {
+        "hoverBackground": "cinzaMedioPedra",
+        "selectedBackground": "marromEscuroTerroso",
+        "selectedForeground": "prata"
+      },
+      "Header": {
+        "background": "cinzaMedioPedra",
+        "borderColor": "cinzaMedioPedra",
+        "inactiveBackground": "cinzaEscuro"
+      },
+      "HeaderTab": {
+        "borderColor": "cinzaMedioPedra",
+        "hoverBackground": "cinzaMedioPedra",
+        "hoverInactiveBackground": "cinzaMedioPedra",
+        "selectedBackground": "cinzaEscuro",
+        "selectedInactiveBackground": "cinzaEscuro",
+        "underlineColor": "ouroVelho",
+        "inactiveUnderlineColor": "ouroVelho",
+        "underlineHeight": 2,
+        "underlinedTabBackground": "cinzaEscuro",
+        "underlinedTabForeground": "prata",
+        "underlinedTabInactiveBackground": "cinzaMedioPedra",
+        "underlinedTabInactiveForeground": "prata"
+      }
+    },
+    "Tree": {
+      "background": "cinzaEscuro",
+      "foreground": "prata",
+      "modifiedItemForeground": "ouroVelho",
+      "selectionBackground": "marromEscuroTerroso",
+      "selectionInactiveBackground": "cinzaMedioPedra"
+    },
+    "ValidationTooltip": {
+      "errorBackground": "vermelhoSangueEscuro",
+      "errorBorderColor": "vermelhoSangueEscuro",
+      "warningBorderColor": "ouroEscuro",
+      "warningBackground": "ouroEscuro"
+    },
+    "VersionControl": {
+      "FileHistory": {
+        "Commit": {
+          "selectedBranchBackground": "preto"
+        }
+      },
+      "GitLog": {
+        "headIconColor": "ouroEscuro",
+        "localBranchIconColor": "verdeMusgoSilenciado",
+        "remoteBranchIconColor": "marromCouro",
+        "tagIconColor": "ouroVelho",
+        "otherIconColor": "azulSuave"
+      },
+      "Log": {
+        "Commit": {
+          "currentBranchBackground": "cinzaEscuro"
+        }
+      }
+    },
+    "WelcomeScreen": {
+      "background": "cinzaEscuro",
+      "borderColor": "cinzaMedioPedra",
+      "separatorColor": "cinzaMedioPedra",
+      "Projects": {
+        "background": "cinzaEscuro",
+        "selectionBackground": "cinzaEscuro",
+        "selectionInactiveBackground": "cinzaEscuro"
+      }
+    },
+    "CheckBoxMenuItem": {
+      "acceleratorSelectionForeground": "ouroVelho"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "actionsBlue",
+      "Actions.Green": "actionsGreen",
+      "Actions.Grey": "prata",
+      "Actions.GreyInline.Dark": "actionsGreyInline",
+      "Actions.GreyInline": "actionsGreyInline",
+      "Actions.Red": "vermelhoSangue",
+      "Actions.Yellow": "ouroEscuro",
+      "Objects.Blue": "actionsBlue",
+      "Objects.Green": "actionsGreen",
+      "Objects.GreenAndroid": "objectsGreenAndroid",
+      "Objects.Grey": "prata",
+      "Objects.Pink": "objectsPink",
+      "Objects.Purple": "objectsPurple",
+      "Objects.Red": "vermelhoSangue",
+      "Objects.RedStatus": "vermelhoSangue",
+      "Objects.Yellow": "ouroEscuro",
+      "Objects.YellowDark": "ouroEscuro",
+      "Objects.BlackText": "preto",
+      "Checkbox.Border.Default.Dark": "cinzaMedioPedra",
+      "Checkbox.Border.Selected.Dark": "cinzaMedioPedra",
+      "Checkbox.Background.Default.Dark": "preto",
+      "Checkbox.Foreground.Selected.Dark": "ouroVelho",
+      "Checkbox.Focus.Wide.Dark": "ouroVelho",
+      "Checkbox.Focus.Thin.Selected.Dark": "ouroVelho",
+      "Checkbox.Focus.Thin.Default.Dark": "ouroVelho"
+    }
+  }
+}
